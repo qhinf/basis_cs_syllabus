@@ -18,7 +18,7 @@ Je houdt een document bij met je bevindingen en foto's van alle onderdelen die j
 
 Deze opdracht kun je handig in tweetallen doen: iemand houdt de schroevendraaier vast, terwijl de ander overal foto's van maakt. Wissel wel af, zodat jullie er beide echt mee aan de slag zijn geweest! Alleen werken is ook toegestaan.
 
-Als je meer structuur nodig hebt om op onderzoek te gaan, gebruik dan het bestand [Opdracht 1.docx](./Opdracht 1.docx) als leidraad voor je verslag. Dan weet je zeker dat je alle belangrijke onderdelen hebt gevonden!
+Als je meer structuur nodig hebt om op onderzoek te gaan, gebruik dan het bestand [Opdracht 1.docx](Opdracht%201.docx) als leidraad voor je verslag. Dan weet je zeker dat je alle belangrijke onderdelen hebt gevonden!
 
 ## Deel 2. Verdieping
 
