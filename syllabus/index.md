@@ -1,5 +1,7 @@
 # Basis van Computer Science
 
+![Een ietwat abstracte afbeelding van apparaten en elektronische circuits.](assets/banner.png)
+
 Welkom bij de Basis van Computer Science! In deze module duiken we in de basisprincipes van de informatica: denk aan woorden als hardware, software, logica, abstractie, maar ook de toepassingen en de gebruikersinterface ontbreken natuurlijk niet. We gaan in vogelvlucht door de drie perspectieven van de informatica: de fysieke hardware, de logica en de toepassingen. Met die drie brillen op bekijken we computersystemen van alle kanten, om zo beter te begrijpen hoe ze werken.
 
 Wat ga je leren? Aan het eind van deze module kun je ...
