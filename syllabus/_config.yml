@@ -1,0 +1,62 @@
+# Boek configuratie
+# https://jupyterbook.org/customize/config.html
+
+title: Basis van Computer Science
+
+# Auteur is verplicht, maar wordt voor de syllabus site automatisch aangepast op
+# basis van de commitgeschiedenis.
+author: Q-highschool
+
+# Standaard worden alleen bestanden die in _toc.yml genoemd worden "gecompileerd"
+only_build_toc_files: true
+
+# Alle code in een notebook wordt opnieuw uitgevoerd tijdens compilatie. Voor
+# syllabi zonder code zet execute_notebooks op "off" (inclusief quotes!)
+execute:
+  execute_notebooks: "off"
+
+# Configuratie voor de MyST Markdown parser, met een aantal handige extensies
+# standaard aangezet. Zie https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
+parse:
+  myst_enable_extensions:
+    - colon_fence # Zodat ook ::: gebruikt kan worden voor admonitions
+    - deflist # <dl> definition list syntax zoals in Pandoc
+    - dollarmath # Schrijf LaTeX formules tussen $ (inline) of $$ (blok)
+    - fieldlist # Een soort tabel van eigenschappen
+    - html_image # Sta <img /> elementen toe voor afbeeldingen
+    - linkify # Maak automatisch links van teksten die op een link lijken
+    - replacements # Vervang (c) door een copyright symbool etc.
+    - smartquotes # Vervang ' en " door echte, schuine quotes (pas op met code!)
+    - substitution # Vervang {{ key }} in teksten met een waarde uit deze configuratie
+    - tasklist # Takenlijst zoals in GitHub Flavored Markdown (- [ ] Dit is een taak)
+
+sphinx:
+  # Extensions voor speciale Markdown blokken via Sphinx, bijvoorbeeld voor
+  # opdrachten (zie de link hieronder). Voeg ook de bijbehorende Python packages
+  # toe aan requirements.txt, als je hier een extensie toevoegt!
+  extra_extensions:
+    - sphinx_exercise # https://ebp-sphinx-exercise.readthedocs.io/en/latest/syntax.html
+  recursive_update: true
+  config:
+    language: nl
+    # Vertaling van "Exercise" voor de exercise extensie. Werkt alleen voor
+    # genummerde oefeningen en iets vergelijkbaars is helaas niet mogelijk voor
+    # "Solution to".
+    # We wachten op https://github.com/executablebooks/sphinx-exercise/issues/13
+    numfig_format:
+      exercise: "Oefening %s"
+    # Zorg dat elke heading een anchor krijgt op basis van de slug, zodat
+    # [](#id) links in de tekst ook werken.
+    myst_heading_anchors: 3
+    # Definieer de keys die in de tekst vervangen kunnen worden. Handig voor
+    # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
+    # een volgende editie.
+    myst_substitutions:
+      deadline: "donderdag 2 november, 16:00"
+      deadline_uitstel_aanvragen: "donderdag 26 oktober, 16:00"
+      deadline_uitstel: "donderdag 30 november, 16:00"
+      docent: "Arthur Rump"
+      docent_email: "a.rump apenstaartje quadraam punt nl"
+
+# html, repository en launch_buttons instellingen worden globaal voor alle
+# syllabi afgehandeld.

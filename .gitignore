@@ -1,0 +1,10 @@
+# Jupyter Book output directory
+_build
+
+# https://github.com/github/gitignore/blob/main/community/Python/JupyterNotebooks.gitignore
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+## IPython
+profile_default/
+ipython_config.py

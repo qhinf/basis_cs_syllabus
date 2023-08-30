@@ -1,0 +1,17 @@
+# Inhoudsopgave
+# Alle pagina's van de syllabus moeten hier in staan!
+# https://jupyterbook.org/structure/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Over de module
+    chapters:
+    - file: eindopdracht
+  - caption: Inhoud
+    numbered: true
+    chapters:
+    - file: abstractie
+    - file: fysiek
+    - file: logisch
+    - file: toepassingen
