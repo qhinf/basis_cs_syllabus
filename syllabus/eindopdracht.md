@@ -4,11 +4,11 @@ Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de
 
 Je maakt deze opdracht in tweetallen, die we vormen tijdens de eerste fysieke les. Tijdens de lessen op afstand krijg je de tijd om met de opdracht aan de slag te gaan en vragen te stellen bij je docent.
 
-Het is bij deze opdracht belangrijk dat je je bronnen vermeld. Dat betekent niet dat je uit deze bronnen mag kopiëren, dat zou plagiaat zijn. Pleeg geen plagiaat! Dus kopieer geen teksten van internet, steel geen plaatjes met copyright, etc. Je mag alleen origineel, eigen werk inleveren. De bronnen waar je je informatie vandaan hebt gehaald vermeld je in een bijlage bij je verslag. Welke webpagina's heb je gelezen? Welke video's heb je bekeken? Welke personen heb je geïnterviewd? Zorg dat deze allemaal terug te vinden zijn in je bronnenlijst!
+Het is bij deze opdracht belangrijk dat je je bronnen vermeldt. De bronnen waar je je informatie vandaan hebt gehaald vermeld je in een bijlage bij je verslag. Welke webpagina's heb je gelezen? Welke video's heb je bekeken? Welke personen heb je geïnterviewd? Zorg dat deze allemaal terug te vinden zijn in je bronnenlijst! Dat betekent overigens niet dat je uit deze bronnen mag kopiëren, dat zou plagiaat zijn. Pleeg geen plagiaat! Dus kopieer geen teksten van internet, steel geen plaatjes met copyright, etc. Je mag alleen origineel, eigen werk inleveren.
 
-Wat betreft het inleveren: zorg dat beide namen op de eerste pagina van het verslag vermeld zijn. Iedereen levert het verslag zelf in, dus van elk tweetal krijg ik twee keer hetzelfde verslag (dat is zodat het voor de administratie duidelijk is waar je het cijfer voor hebt gekregen). Inleveren doe je zoals altijd op [app.q-highschool.nl](https://app.q-highschool.nl).
+Wat betreft het inleveren: zorg dat jullie beider namen op de eerste pagina van het verslag vermeld zijn. Iedereen levert het verslag zelf in, dus van elk tweetal krijg ik twee keer hetzelfde verslag (dat is zodat het voor de administratie duidelijk is waar je het cijfer voor hebt gekregen). Inleveren doe je zoals altijd op [app.q-highschool.nl](https://app.q-highschool.nl).
 
-De deadline voor het inleveren is {{ deadline }}. Als je meer tijd nodig hebt, dan mag je uitstel aanvragen. Doe dit voor {{ deadline_uitstel_aanvragen }}. Als je aanvraag goedgekeurd wordt, dan heb je tot {{ deadline_uitstel }} om de opdracht in te leveren.
+De deadline voor het inleveren is {{ deadline }}. Als je meer tijd nodig hebt, dan kun je ervoor kiezen van het tweede inlevermoment gebruik te maken. Laat het voor {{ deadline_uitstel_aanvragen }} weten aan je docent ({{ docent }}, {{ docent_email }}) als je dat wilt. Het tweede inlevermoment is op {{ deadline_uitstel }}.
 
 ## Mogelijke systemen
 
