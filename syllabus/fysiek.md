@@ -29,6 +29,14 @@ Als je de computer wilt gebruiken, dan is de eerste knop op het apparaat die je 
 
 Beschrijf de fysieke opbouw van het systeem dat jullie hebben gekozen voor de eindopdracht. Welke onderdelen zitten er in het systeem? Waar zijn die onderdelen voor? Hoe werken de onderdelen samen? Hoe communiceren de onderdelen met elkaar?
 
-Als je het apparaat hebt dat je wilt onderzoeken en je kunt het uit elkaar halen: doe dat vooral. (Maar liever niet als dat apparaat nog in gebruik is...) Gebruik anders andere bronnen: tear-down video's, reparatie video's, reparatiehandleidingen (vooral bij oudere apparaten staat in de handleiding soms uitgebreid beschreven hoe het in elkaar zit!). Vraag mensen die er iets van weten, als je die kunt vinden! En als je niets kan vinden: logisch nadenken, wat is er nodig om dit te laten werken?
+In de meeste systemen vind je drie soorten onderdelen:
 
-Zie ook de rubric in {doc}`eindopdracht` om te zien hoe dit onderdeel beoordeeld wordt.
+- Sensoren: deze onderdelen maken het mogelijk om input aan het systeem te geven. Sommige sensoren meten de omgeving, bijvoorbeeld de temperatuur of de lichtintensiteit. Andere sensoren zijn voor gebruikersinteractie, bijvoorbeeld knoppen die een signaal sturen als die worden ingedrukt.
+- Actuatoren: deze onderdelen zijn de output van het systeem. Beeldschermen en luidsprekers vallen hieronder, maar ook motoren, signaallampjes en alle andere onderdelen die iets in de echte wereld veranderen zijn actuatoren.
+- Besturing: deze onderdelen vormen het "brein" van het systeem. Ze hebben zelf geen effect op de omgeving en ze hebben ook geen mogelijkheid om informatie uit de omgeving te halen, maar ze zorgen ervoor dat het systeem doet wat het moet doen. Ze verwerken de signalen die van de sensoren komen en sturen de actuatoren aan.
+
+Beschrijf de onderdelen in jullie systeem die van belang zijn voor de belangrijkste functie van het systeem en verdeel de onderdelen daarbij in de drie categorieën die hierboven beschreven zijn. Voeg afbeeldingen toe en leg ook uit wat de functie van elk onderdeel in het systeem is. Zoek ook de chips die op printplaten in jullie systeem zitten verder uit en leg waar mogelijk de link naar de onderdelen die je in een computer tegenkomt. De meeste moderne systemen zijn (tot op zekere hoogte) computergestuurd, dus onderdelen als een CPU, werkgeheugen en opslag zijn meestal wel ergens te vinden.
+
+Als je het apparaat hebt dat je wilt onderzoeken en je kunt het uit elkaar halen: doe dat vooral. (Maar liever niet als dat apparaat nog in gebruik is...) Gebruik anders andere bronnen: tear-down video's, reparatie video's, reparatiehandleidingen (vooral bij oudere apparaten staat in de handleiding soms uitgebreid beschreven hoe het in elkaar zit!). Vraag mensen die er iets van weten, als je die kunt vinden! En als je niets kan vinden: logisch nadenken, wat is er nodig om dit te laten werken? Zoals altijd: vermeld je bronnen!
+
+Zie [de rubric bij de eindopdracht](eindopdracht.md#fysiek) om te zien hoe dit onderdeel beoordeeld wordt.

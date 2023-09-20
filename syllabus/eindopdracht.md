@@ -2,7 +2,7 @@
 
 Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, hoe het systeem logisch functioneert (met een automaat!) en je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp. Deze onderdelen voeg je samen in een [verslag](#het-verslag), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-highschool.nl).
 
-Je maakt deze opdracht in tweetallen, die we vormen tijdens de eerste fysieke les. Tijdens de lessen op afstand krijg je de tijd om met de opdracht aan de slag te gaan en vragen te stellen bij je docent.
+Je maakt deze opdracht in tweetallen, die we vormen tijdens de eerste fysieke les. Tijdens de lessen op afstand krijg je de tijd om met de opdracht aan de slag te gaan en vragen te stellen bij je docent. Aan het eind van de lessen op afstand heb je de mogelijkheid om je werk tot dan toe in te leveren via Teams en alvast feedback te krijgen op dat deel. Doe er je voordeel mee!
 
 Het is bij deze opdracht belangrijk dat je je bronnen vermeldt. De bronnen waar je je informatie vandaan hebt gehaald vermeld je in een bijlage bij je verslag. Welke webpagina's heb je gelezen? Welke video's heb je bekeken? Welke personen heb je geïnterviewd? Zorg dat deze allemaal terug te vinden zijn in je bronnenlijst! Dat betekent overigens niet dat je uit deze bronnen mag kopiëren, dat zou plagiaat zijn. Pleeg geen plagiaat! Dus kopieer geen teksten van internet, steel geen plaatjes met copyright, etc. Je mag alleen origineel, eigen werk inleveren.
 
@@ -35,11 +35,11 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
 
 2. Beschrijving van de fysieke onderdelen
 
-   Zie {doc}`fysiek`.
+   Zie [de beschrijving hier](fysiek.md#eindopdracht).
 
 3. Beschrijving van de logische werking met een automaat
 
-   Zie {doc}`logisch`.
+   Zie [de beschrijving hier](logisch.md#eindopdracht).
 
 4. Evaluatie van de gebruikersinterface
 
@@ -56,7 +56,13 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
 
 ## Beoordeling
 
-:::{list-table} Algemeen
+Het verslag wordt beoordeeld aan de hand van vier rubrics: de eerste rubric beschrijft een aantal algemene aspecten van het verslag, de volgende drie rubrics gaan specifiek over de hoofdstukken fysiek, logisch en de gebruikersinterface.
+
+Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in die tabel, je eindcijfer is het gemiddelde van die vier rubriccijfers. Als alle punten als goed zijn aangemerkt, wordt een 10 toegekend. Ontbrekende delen leveren een 1 op voor dat onderdeel. Bij grote verschillen in de werkverdeling, kunnen we verschillende cijfers toekennen.
+
+### Algemeen
+
+:::{list-table}
 :header-rows: 1
 :stub-columns: 1
 :width: 100%
@@ -88,9 +94,9 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
   - Het verslag is niet te volgen of veel zinnen bevatten spelfouten of grammaticale fouten.
 :::
 
-*Werk in uitvoering: deze syllabus is nog in ontwikkeling. Deze rubrics worden gedurende de module aangevuld:*
+### Fysiek
 
-:::{list-table} Fysiek
+:::{list-table}
 :header-rows: 1
 :stub-columns: 1
 :width: 100%
@@ -101,18 +107,22 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
   - Matig (5)
   - Onvoldoende (3)
 * - Componenten
-  -
-  -
-  -
-  -
+  - Alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen. Bij elk onderdeel is ook uitgelegd wat de functie van dat onderdeel is bij gebruik van het systeem. Printplaten in het systeem worden verder onder de loep genomen om hun functie te beschrijven, inclusief relevante chips op de printplaat. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing. Onderdelen uit de besturing zijn waar mogelijk gelinkt aan standaard computeronderdelen (CPU, werkgeheugen, opslag, etc.).
+  - Vrijwel alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen en een beschrijving van de functie van dat onderdeel. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing.
+  - De meeste belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief de functie van dat onderdeel.
+  - Enkele belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven.
 * - Verbindingen
-  -
-  -
-  -
-  -
+  - Alle verbindingen tussen alle beschreven onderdelen zijn overzichtelijk beschreven, inclusief een schematische weergave. Daarbij is ook uitgelegd hoe gegevens over die verbinding worden uitgewisseld (is het een USB-kabel? Netwerkverbinding? Simpele elektrische signalen?).
+  - Alle verbindingen tussen alle beschreven onderdelen zijn overzichtelijk beschreven, inclusief een schematische weergave.
+  - De meeste verbindingen tussen alle beschreven onderdelen zijn overzichtelijk beschreven.
+  - Enkele belangrijke verbindingen tussen onderdelen zijn beschreven.
 :::
 
-:::{list-table} Logisch
+### Logisch
+
+*Werk in uitvoering: deze syllabus is nog in ontwikkeling. Deze rubric wordt gedurende de module aangevuld:*
+
+:::{list-table}
 :header-rows: 1
 :stub-columns: 1
 :width: 100%
@@ -134,7 +144,11 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
   -
 :::
 
-:::{list-table} Toepassingen
+### Toepassingen
+
+*Werk in uitvoering: deze syllabus is nog in ontwikkeling. Deze rubric wordt gedurende de module aangevuld:*
+
+:::{list-table}
 :header-rows: 1
 :stub-columns: 1
 :width: 100%
@@ -160,5 +174,3 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
   -
   -
 :::
-
-Per tabel wordt een cijfer berekend als het gemiddelde van alle onderdelen in die tabel, je eindcijfer is het gemiddelde van die vier tabelcijfers. Als alle punten als goed zijn aangemerkt, wordt een 10 toegekend. Ontbrekende delen leveren een 1 op voor dat onderdeel. Bij grote verschillen in de werkverdeling, kunnen we verschillende cijfers toekennen.
