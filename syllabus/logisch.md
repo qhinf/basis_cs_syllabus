@@ -1,10 +1,52 @@
 # De logische laag
 
-*Werk in uitvoering: deze syllabus is nog in ontwikkeling.*
+We hebben gezien hoe computers en andere systemen fysiek in elkaar steken, maar computers zijn natuurlijk niet alleen maar ene bouwpakket om in en uit elkaar te schroeven. We willen ook weten wat je ermee kan! Dat is de logische laag: hoe processen werken. We gaan beschrijven hoe systemen en processen werken aan de hand van *automaten*.
 
-- Software
-- Automaten
-- De diepte in: Turing machines en het halting problem
+## Software
+
+Computers zijn universele machines: de hardware kan alles berekenen wat berekenbaar is en als je je computer voor iets anders wilt gebruiken, hoef je de hardware niet aan te passen. Dat is niet vanzelfsprekend: de eerste computers werden geprogrammeerd door draadjes te verbinden en schakelaars om te zetten. Zo werd de hardware aangepast aan het probleem dat opgelost moest worden.
+
+Tegenwoordig gebruiken we *soft*ware om te beschrijven hoe een computer werkt. Het is *soft* omdat het makkelijker te veranderen is dan *hard*ware. In deze module gaan we zelf geen software programmeren (dat leer je bij de Basis van Programmeren met Python), maar we gaan wel beschrijven hoe een programma of een systeem werkt.
+
+## Automaten
+
+Dit is een automaat:
+
+![Een automaat met vier toestanden A, B, C en D in cirkels en pijlen tussen die cirkels met willekeurig 1 of 2 erbij. Deze pijlen zijn transities.](assets/voorbeeldautomaat.png)
+
+Een automaat heeft twee onderdelen: *toestanden* en *transities*. Met de toestand bedoelen we de huidige staat van een systeem of programma en transities zijn acties waarmee je naar een andere toestand gaat. Een koelkast met de deur dicht en het lampje uit is bijvoorbeeld een toestand en met de deur open en het lampje aan is een andere. De transitie van de eerste naar de tweede is het openen van de deur. Transities kunnen plaatsvinden doordat een gebruiker een actie onderneemt, of doordat het systeem zelf iets doet.
+
+Zie bijvoorbeeld de automaat van deze (simpele) koffiemachine. Bij deze automaat kun je voor €2 koffie halen, maar je kunt alleen betalen met munten van €1.
+
+![Automaat voor een koffiemachine. De automaat heeft 4 toestanden: Start, €1, €2 en Koffie maken. Er zijn transities van Start naar €1 (€1 inworp), van €1 naar €2 (€1 inworp), van €2 naar Koffie maken (Klik op koffie) en van Koffie maken terug naar Start (Koffie klaar).](assets/koffieautomaat.drawio.png)
+
+In de "Start" toestand is er maar één actie mogelijk: een €1 munt inwerpen. Als een gebruiker dat doet, komt de automaat in een nieuwe toestand waarin er €1 in de machine zit. De gebruiker kan nogmaals €1 inwerpen en dan komt de machine in een toestand waar het mogelijk is om koffie te krijgen. Als de gebruiker dan op "koffie" klikt, gaat de machine koffie maken. Als die koffie klaar is, gaat het vanzelf terug naar de "Start" toestand.
+
+:::{exercise} Tikkertje
+:label: tikkertje
+
+Vier personen spelen tikkertje. Teken een automaat die weergeeft hoe het spel kan verlopen.
+:::
+
+:::{solution} tikkertje
+Er zien vier toestanden: persoon A is de tikker, persoon B is de tikker, persoon C is de tikker of persoon D is de tikker. Als persoon A de tikker is, kan die B, C of D tikken, dus zijn er die transities van persoon A naar B, C en D. Dat geldt natuurlijk ook voor alle andere spelers.
+
+![Automaat met vier toestanden A, B, C en D. Elke toestand heeft drie inkomende transities, gelabeld "tikt X", vanuit de andere drie toestanden.](assets/tikkertjeautomaat.png)
+:::
+
+:::{exercise} Schateiland
+Deze opdracht doen we tijdens de les.
+
+![Een kaart met 7 eilanden: Scheepswrakkenbaai, Dodemanseiland, Schateiland, Pirateneiland, Smokkelaarsgrot, Muiterseiland en Musketheuvel.](assets/schateiland.png)
+
+Je krijgt een kaart zoals hierboven met de 7 pirateneilanden. Het is jouw taak om een route te vinden van het Pirateneiland naar Schateiland (waar natuurlijk een schat begraven ligt, daarom heet het zo). Tussen de eilanden varen twee boten, boot A en boot B, waarop je mee kunt varen om je tussen de eilanden te verplaatsen. (Op elk eiland kun je uiteraard overstappen.) Zeven klasgenoten hebben een kaartje gekregen met informatie over de boten die vanaf hun eiland vertrekken en waar die boten heen gaan. Vraag je klasgenoten om die informatie en maak zo de kaart compleet met alle routes die de boten varen.
+
+Wat is de kortste route (minste boottochten) om op schateiland te komen? Is er een route waarbij je elke keer moet overstappen? Kun je alle eilanden bij langs gaan op je route? Bestaat er ook een langste route?
+
+*Bron: [CS Unplugged](http://www.csunplugged.nl/11-eindige-automaat/)*
+:::
+
+Zoals je bij het schateiland uitzoekt welke transities je kunt nemen vanaf elk eiland, kun je bij elk systeem uitzoeken wat de mogelijke transities zijn en in welke toestanden je dan terecht komt. Zo kun je alle mogelijkheden van een systeem beschrijven en schematisch weergeven hoe een systeem logisch werkt.
 
 :::{exercise} De mysterieuze munt
 Vrienden hebben op het internet een spelletje gevonden waar een robot een munt opgooit en de speler moet proberen te raden of het kop of munt gaat worden. In eerste instantie leek het heel eenvoudig, de kans om te winnen was 50/50 — althans dat dachten ze. Na een tijdje begonnen ze argwanend te worden. Er leek wel een patroon te zitten in de worpen van de munt.
@@ -19,12 +61,47 @@ k k k k k k m m k k k m m m m k k k k k m m m m
 m m m
 ```
 
-Kun jij een voorspelbaar patroon vinden dat je meer dan 50% kans geeft voor de meeste worpen?
+Kun jij een voorspelbaar patroon vinden dat je gemiddeld meer dan 50% kans geeft om goed te raden?
 
 Er is een eenvoudige automaat die de uitkomsten van de opeenvolgende worpen beschrijft. Kun je die vinden? (Hint: er zijn maar 4 toestanden!)
 
+<details>
+<summary>Klik voor meer hints.</summary>
+De toestanden hebben hier geen betekenis, of er kop of munt wordt gegooid wordt bepaald door de transities die je neemt. Net als dat BABA een route tussen de pirateneilanden was, is kkm hier een route tussen de vier eilanden.
+
+Je begint in een starttoestand. De eerste worp eindigt in kop, dus er moet vanuit deze toestand een "kop-boot" vertrekken naar een nieuwe toestand. Je hebt nu de eerste transitie. De volgende worp is weer kop, dus vanuit deze toestand vertrekt weer een "kop-boot", naar een nieuwe toestand of terug naar de start-toestand. Vanuit daar moet een "munt-boot" vertrekken, want dat is de volgende worp, etc. Er is één manier waarop je de transities kunt verdelen dat de resultaten van Marie een valide route vormen.
+</details>
+
 *Bron: [CS Unplugged](http://www.csunplugged.nl/11-eindige-automaat/)*
 :::
+
+## Bonus: Turing machines en wat computers niet kunnen
+
+We hebben eerder al gezien dat computers universele machines zijn: ze kunnen alles berekenen wat berekenbaar is. Alan Turing ontwikkelde een model (abstractie!) van de computer: de Turing machine. Een Turing machine kan alles wat een computer kan, welke computer je ook bekijkt. Omgekeerd: elke machine die een Turing machine kan simuleren, noemen we *Turing complete*. Dat betekent dat die machine alles kan berekenen wat een computer ook kan. Soms wat langzamer, maar in theorie kun je elk programma op elke computer uitvoeren.
+
+De meest gekke dingen zijn Turing complete: het animatiesysteem in [PowerPoint is Turing complete](https://www.youtube.com/watch?v=uNjxe8ShM-8) net als Minecraft. Je kunt dus in PowerPoint of Minecraft een computer bouwen die alles kan wat de computer waarop je PowerPoint of Minecraft uitvoert ook kan. In theorie kun je dus in Minecraft een computer bouwen en daarop Minecraft spelen (al gaat dat waarschijnlijk wel heel langzaam).
+
+Een Turing machine heeft twee onderdelen: een automaat, die beschrijft hoe de computer werkt, en een tape die als geheugen functioneert. De tape is opgedeeld in vakjes en ik elk vakje staat een 1 of een 0. Daarnaast is er een pointer die aangeeft naar welke plek in de tape we nu kijken.
+
+![Een lijst vakjes willekeurig gevuld met 1 en 0. Naar een van de vakjes wijst een pijl.](assets/turing_tape.png)
+
+De transities in de automaat van de Turing machine hebben drie labels: wat er nu in het geheugen moet staan om die transitie te kunnen maken, wat er op de huidige plek in het geheugen wordt geschreven als deze transitie gevolgd wordt en welke kant de pointer op de tape verschoven wordt (links, rechts, of blijft op dezelfde plek).
+
+![Een automaat met drie toestanden, 1, 2 en 3. Er gaat een transitie van 1 naar 2 met label "0, 1, rechts" en een transitie van 1 naar 3 met label "1, 1, links".](assets/turing_automaat.png)
+
+Met een Turing machine kan elk programma dat je op een computer uitvoert beschreven worden. Dat is de kracht van automaten!
+
+### Stoppen of wachten?
+
+Als je Windows gebruikt, heb je waarschijnlijk wel eens een melding zoals deze gezien:
+
+![Een dialoogvenster in Windows met de tekst "Notepad is not responding". Je hebt twee keuzes: "Close the program" of "Wait for the program to respond"](assets/notresponding.png)
+
+*Bron: [Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/win7appqual/preventing-hangs-in-windows-applications)*
+
+Dat gebeurt als Windows detecteert dat een programma niet meer reageert op jouw acties en dus moet jij nu kiezen of je wilt wachten tot het programma (misschien) weer gaat reageren of dat je het programma wilt sluiten. Het is voor een computer namelijk niet mogelijk om te zien of een programma is vastgelopen en in een oneindige lus is beland, of dat het programma gewoon traag is en nog met dingen bezig is. Met Turing machines kunnen we dat bewijzen!
+
+*TODO: halting problem bewijs*
 
 ## Eindopdracht
 
