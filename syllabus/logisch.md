@@ -6,6 +6,26 @@
 - Automaten
 - De diepte in: Turing machines en het halting problem
 
+:::{exercise} De mysterieuze munt
+Vrienden hebben op het internet een spelletje gevonden waar een robot een munt opgooit en de speler moet proberen te raden of het kop of munt gaat worden. In eerste instantie leek het heel eenvoudig, de kans om te winnen was 50/50 — althans dat dachten ze. Na een tijdje begonnen ze argwanend te worden. Er leek wel een patroon te zitten in de worpen van de munt.
+
+Was het spel eerlijk? Helemaal niet! Ze besloten het te onderzoeken. Marie hield vanaf nu de resultaten bij en dit is wat ze vond: (k = kop, m = munt)
+
+```
+k k m k k m k k k m m k k k k m m k m m m k k k
+k k m k k k m m m k k k m m m k k k k k k m m k
+m m m m m k m m k m m m k k k m m k k k m k k k
+k k k k k k m m k k k m m m m k k k k k m m m m
+m m m
+```
+
+Kun jij een voorspelbaar patroon vinden dat je meer dan 50% kans geeft voor de meeste worpen?
+
+Er is een eenvoudige automaat die de uitkomsten van de opeenvolgende worpen beschrijft. Kun je die vinden? (Hint: er zijn maar 4 toestanden!)
+
+*Bron: [CS Unplugged](http://www.csunplugged.nl/11-eindige-automaat/)*
+:::
+
 ## Eindopdracht
 
 Teken een automaat die beschrijft hoe jullie systeem werkt. In welke staten kan het systeem zijn? Welke acties kunnen gebruikers nemen? Welke acties gebeuren automatisch, bijvoorbeeld met een timer? In welke staten zijn die acties geldig? En naar welke staat ga je als zo'n actie is uitgevoerd?
