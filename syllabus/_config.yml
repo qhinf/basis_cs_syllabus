@@ -53,8 +53,8 @@ sphinx:
     # een volgende editie.
     myst_substitutions:
       deadline: "donderdag 2 november, 16:00"
-      deadline_uitstel_aanvragen: "donderdag 26 oktober, 16:00"
-      deadline_uitstel: "donderdag 30 november, 16:00"
+      deadline_uitstel_aanvragen: "maandag 23 oktober, 16:00"
+      deadline_uitstel: "dinsdag 28 november, 16:00"
       docent: "Arthur Rump"
       docent_email: "a.rump apenstaartje quadraam punt nl"
 
