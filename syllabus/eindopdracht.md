@@ -120,8 +120,6 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
 
 ### Logisch
 
-*Werk in uitvoering: deze syllabus is nog in ontwikkeling. Deze rubric wordt gedurende de module aangevuld:*
-
 :::{list-table}
 :header-rows: 1
 :stub-columns: 1
@@ -133,15 +131,15 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
   - Matig (5)
   - Onvoldoende (3)
 * - Automaat
-  -
-  -
-  -
-  -
+  - De automaat beschrijft volledig de verschillende interacties die gebruikers met het systeem kunnen hebben en geeft een goed beeld van de volledige werking van het systeem. De automaat is een precieze beschrijving, dus er zijn geen interacties mogelijk in de automaat die niet werken in het systeem. Voor een systeem met veel toestanden is de automaat opgedeeld in logische onderdelen, waarbij alle soorten processen verwerkt zijn.
+  - De automaat beschrijft de belangrijkste interacties met gebruikers en de belangrijkste processen in het systeem. De automaat is een redelijk precieze beschrijving, dus er zijn vrijwel geen interacties mogelijk in de automaat die niet werken in het systeem. Voor een systeem met veel toestanden is de automaat opgedeeld in logische onderdelen, waarbij de belangrijkste processen verwerkt zijn.
+  - De automaat beschrijft enkele functies van het systeem. De interacties binnen die functies zijn allemaal weergegeven in de automaat, maar in de automaat zijn meer interacties mogelijk dan in het echte systeem.
+  - De automaat geeft geen goede beschrijving van het systeem: veel interacties in het systeem zijn niet weergegeven in de automaat.
 * - Beschrijving
-  -
-  -
-  -
-  -
+  - De beschrijving legt uit hoe de automaat in elkaar zit, hoe de verschillende toestanden er in de praktijk uitzien en hoe de transities in het echt plaatsvinden. Gemaakte keuzes, bijvoorbeeld voor het opdelen van de automaat en welke interacties en processen het belangrijkst zijn, worden goed onderbouwd.
+  - De beschrijving legt uit hoe de automaat in elkaar zit. Gemaakte keuzes, bijvoorbeeld voor het opdelen van de automaat en welke interacties en processen het belangrijkst zijn, worden onderbouwd.
+  - De beschrijving legt globaal uit hoe de automaat in elkaar zit. Gemaakte keuzes worden wel benoemd, maar niet onderbouwd.
+  - De beschrijving helpt niet bij het begrijpen van de automaat.
 :::
 
 ### Toepassingen
