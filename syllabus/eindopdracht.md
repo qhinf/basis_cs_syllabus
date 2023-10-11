@@ -107,7 +107,7 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
   - Matig (5)
   - Onvoldoende (3)
 * - Componenten
-  - Alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen. Bij elk onderdeel is ook uitgelegd wat de functie van dat onderdeel is bij gebruik van het systeem. Printplaten in het systeem worden verder onder de loep genomen om hun functie te beschrijven, inclusief relevante chips op de printplaat. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing. Onderdelen uit de besturing zijn waar mogelijk gelinkt aan standaard computeronderdelen (CPU, werkgeheugen, opslag, etc.).
+  - Alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen (eigen foto's of schetsen, of van internet met bronvermelding). Bij elk onderdeel is ook uitgelegd wat de functie van dat onderdeel is bij gebruik van het systeem. Printplaten in het systeem worden verder onder de loep genomen om hun functie te beschrijven, inclusief relevante chips op de printplaat. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing. Onderdelen uit de besturing zijn waar mogelijk gelinkt aan standaard computeronderdelen (CPU, werkgeheugen, opslag, etc.).
   - Vrijwel alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen en een beschrijving van de functie van dat onderdeel. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing.
   - De meeste belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief de functie van dat onderdeel.
   - Enkele belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven.
@@ -157,17 +157,17 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
   - Matig (5)
   - Onvoldoende (3)
 * - Beschrijving van de gebruikersinterface
-  -
+  - De beschrijving omvat alle belangrijke aspecten van de gebruikersinterface: welke functies beschikbaar zijn en hoe mensen die kunnen gebruiken. Alle knoppen, schermen, hendels, lampjes en geluiden worden genoemd. De verschillende toestanden die de interface aangeeft worden beschreven, inclusief afbeeldingen (foto's of schetsen).
   -
   -
   -
 * - Evaluatie met vuistregels
-  -
+  - Alle vuistregels komen aan bod in de evaluatie en bij elke vuistregel worden meerdere voorbeelden gegeven van het wel of niet toepassen van die regel in het systeem. De afwegingen bij conflicten tussen vuistregels worden helder uitgelegd, inclusief argumenten waarom daar wel of niet de juiste keuze gemaakt is.
   -
   -
   -
 * - Suggesties voor verbetering
-  -
+  - Er zijn meerdere suggesties voor verbeteringen aan het systeem, met een goede onderbouwing van elke verbetering aan de hand van de vuistregels. De verbeteringen zijn verwerkt in een papieren prototype, dat is getest met een testgebruiker.
   -
   -
   -
