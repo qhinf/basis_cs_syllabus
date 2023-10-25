@@ -43,7 +43,7 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
 
 4. Evaluatie van de gebruikersinterface
 
-   Zie {doc}`toepassingen`.
+   Zie [de beschrijving hier](toepassingen.md#eindopdracht).
 
 5. Conclusie
 
@@ -144,8 +144,6 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
 
 ### Toepassingen
 
-*Werk in uitvoering: deze syllabus is nog in ontwikkeling. Deze rubric wordt gedurende de module aangevuld:*
-
 :::{list-table}
 :header-rows: 1
 :stub-columns: 1
@@ -157,18 +155,18 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
   - Matig (5)
   - Onvoldoende (3)
 * - Beschrijving van de gebruikersinterface
-  - De beschrijving omvat alle belangrijke aspecten van de gebruikersinterface: welke functies beschikbaar zijn en hoe mensen die kunnen gebruiken. Alle knoppen, schermen, hendels, lampjes en geluiden worden genoemd. De verschillende toestanden die de interface aangeeft worden beschreven, inclusief afbeeldingen (foto's of schetsen).
-  -
-  -
-  -
+  - De beschrijving omvat alle belangrijke aspecten van de gebruikersinterface: welke functies beschikbaar zijn en hoe mensen die kunnen gebruiken. Alle knoppen, schermen, hendels, lampjes, geluiden etc. worden genoemd. De verschillende toestanden die de interface aangeeft worden beschreven, inclusief afbeeldingen (foto's of schetsen).
+  - De beschrijving omvat de belangrijkste aspecten van de gebruikersinterface: de belangrijkste functies worden beschreven, inclusie hoe mensen die kunnen gebruiken. Daarbij worden de belangrijkste knoppen, schermen, hendels, lampjes, geluiden, etc. genoemd. De belangrijkste toestanden die de interface aangeeft worden beschreven, inclusief afbeeldingen (foto's of schetsen).
+  - De beschrijving geeft een beeld van de gebruikersinterface. De belangrijkste toestanden van de interface worden beschreven, inclusief afbeeldingen (foto's of schetsen).
+  - De beschrijving geeft geen helder beeld van de gebruikersinterface. Afbeeldingen ontbreken.
 * - Evaluatie met vuistregels
-  - Alle vuistregels komen aan bod in de evaluatie en bij elke vuistregel worden meerdere voorbeelden gegeven van het wel of niet toepassen van die regel in het systeem. De afwegingen bij conflicten tussen vuistregels worden helder uitgelegd, inclusief argumenten waarom daar wel of niet de juiste keuze gemaakt is.
-  -
-  -
-  -
+  - Alle vuistregels komen aan bod in de evaluatie en bij elke vuistregel worden meerdere voorbeelden gegeven van het wel of niet toepassen van die regel in het systeem. De afwegingen bij conflicten tussen vuistregels worden helder uitgelegd, inclusief argumenten waarom daar wel of niet de juiste keuze gemaakt is. Als er geen conflicten optreden, dan wordt dat helder uitgelegd.
+  - Vrijwel alle vuistregels komen aan bod in de evaluatie met minstens één voorbeeld van het wel of niet toepassen van die regel in het systeem. Van enkele conflicten tussen vuistregels worden de afwegingen uitgelegd, inclusief argumenten waarom daar wel of niet de juiste keuze gemaakt is. Als er geen conflicten optreden, dan wordt dat helder uitgelegd.
+  - Minimaal vijf vuistregels komen aan bod in de evaluatie met minstens één voorbeeld van het wel of niet toepassen van die regel in het systeem. Van enkele conflicten tussen vuistregels worden de afwegingen uitgelegd.
+  - Slechts enkele vuistregels komen aan bod in de evaluatie, of voorbeelden ontbreken bij veel vuistregels. Conflicten tussen vuistregels worden niet besproken.
 * - Suggesties voor verbetering
   - Er zijn meerdere suggesties voor verbeteringen aan het systeem, met een goede onderbouwing van elke verbetering aan de hand van de vuistregels. De verbeteringen zijn verwerkt in een papieren prototype, dat is getest met een testgebruiker.
-  -
-  -
-  -
+  - Er zijn meerdere suggesties voor verbeteringen aan het systeem, met een goede onderbouwing van elke verbetering aan de hand van de vuistregels. De verbeteringen worden met een paar schetsen duidelijk gepresenteerd.
+  - Er is minstens één suggestie voor een verbetering aan het systeem, met een onderbouwing aan de hand van de vuistregels.
+  - Er is minstens één suggestie voor een verbetering aan het systeem, maar die wordt niet onderbouwd.
 :::
