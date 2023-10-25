@@ -99,9 +99,31 @@ Als je Windows gebruikt, heb je waarschijnlijk wel eens een melding zoals deze g
 
 *Bron: [Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/win7appqual/preventing-hangs-in-windows-applications)*
 
-Dat gebeurt als Windows detecteert dat een programma niet meer reageert op jouw acties en dus moet jij nu kiezen of je wilt wachten tot het programma (misschien) weer gaat reageren of dat je het programma wilt sluiten. Het is voor een computer namelijk niet mogelijk om te zien of een programma is vastgelopen en in een oneindige lus is beland, of dat het programma gewoon traag is en nog met dingen bezig is. Met Turing machines kunnen we dat bewijzen!
+Dat gebeurt als Windows detecteert dat een programma niet meer reageert op jouw acties en dus moet jij nu kiezen of je wilt wachten tot het programma (misschien) weer gaat reageren of dat je het programma wilt sluiten. Het is voor een computer namelijk niet mogelijk om te zien of een programma is vastgelopen en in een oneindige lus is beland, of dat het programma gewoon traag is en nog met dingen bezig is. Met Turing machines kunnen we dat bewijzen! 
 
-*TODO: halting problem bewijs*
+>  Bekijk ook [deze video](https://www.youtube.com/watch?v=VyHbd6sx5Po) voor een vergelijkbaar (maar subtiel anders) bewijs.
+
+We maken een Turing machine van het programma dat we willen analyseren en die machine noemen we *M*. Deze machine loopt dus over een tape met data en in de machine zit een automaat die bepaald hoe het programma werkt. Een Turing machine kan elke computer simuleren, dus ook al weten we niet precies hoe *M* werkt, we weten wel dat we *M* kunnen maken en dat is genoeg!
+
+![Een Turing machine M op een tape met data](assets/logisch/image-20231025154623193.png)
+
+Omdat een Turing machine gewoon een automaat is, kunnen we die opschrijven als data op een tape en een Turing machine uitvoeren op haar eigen "code". Net zoals dat je de code van Kladblok met Kladblok zou kunnen bewerken! Dat klinkt misschien een beetje vreemd, maar later in dit bewijs is het handig. Als we de beschrijving *M* als input aan de machine *M* geven, tekenen we dat zo:
+
+![De machine M met M als input](assets/logisch/image-20231025162559853.png)
+
+We willen dus weten of *M* ooit klaar is en stopt, of dat die machine voor eeuwig in een loop blijft draaien. Stel nu dat we een Turing machine hebben die dat kan bepalen en we noemen die machine *H*. *H* leest op de tape een beschrijving van de machine *M*. *H* voert deze machine *M* uit op de beschrijving, de "code", van *M* zelf, net als op de afbeelding hierboven. Als *M* dan in een oneindige loop draait, dan stopt de machine *H*. Als *M* echter stopt, dan gaat *H* in een oneindige loop. Dit kan omdat we stellen dat *H* kan bepalen of *M* in een oneindige loop zit en dan zelf kan kiezen om te stoppen of naar een oneindige loop te gaan.
+
+![H leest de Turing machine M. Als M stopt, dan gaat H in een loop. Als M in een loop komt, dan stopt H.](assets/logisch/image-20231025162943051.png)
+
+Tot zover gaat alles goed. Wat nu als we aan *H* vragen of *H* ooit stopt (als je *H* de beschrijving van *H* als input geeft)?
+
+![Turing machine H met als input de machine H krijgt. Wat doet deze machine?](assets/logisch/image-20231025164345365.png)
+
+Dit is dus dezelfde vraag die *H* intern stelt: *H* voert machines uit op hun eigen beschrijving, dus hier voert het *H* uit op de beschrijving van *H*, net als wij nu doen. Als onze machine dan detecteert dat *H* stopt, dan gaat *H* dus in een oneindige loop. Maar als *H* in een oneindige loop gaat, dan stopt *H*...
+
+![Turing machine H met als input de machine H krijgt. Als H stopt, dan gaat H in een loop. Als H in een loop gaat, dan stopt H. Dat kan dus niet.](assets/logisch/image-20231025164942277.png)
+
+Daar gaat iets fout! Deze situatie spreekt zichzelf tegen. Gelukkig hebben we aan het begin een aanname gedaan en nu blijkt dat dat lijdt tot een paradox. We moeten dus concluderen dat deze machine *H* niet kan bestaan! Computers kunnen dus niet bepalen of een programma in een oneindige loop zit, of dat het programma toch nog uit zichzelf zal stoppen.
 
 ## Eindopdracht
 
