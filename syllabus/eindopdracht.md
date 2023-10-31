@@ -54,6 +54,13 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
    - Per persoon: wat vond je van deze module? Wat heb jij ervan geleerd? Wat zouden we anders moeten doen? (Ongeveer 100 woorden.)
    - Werkverdeling: wie heeft wat gedaan?
 
+:::{admonition} Saai? 🥱😴
+:class: note
+
+Wil je meer uitdaging dan alleen het beschrijven van een systeem? Als uitbreiding mag je ook zelf het systeem simuleren of nabouwen, bijvoorbeeld met een game-engine of in Minecraft. Je hebt daarvoor een goede analyse nodig van de (fysieke) onderdelen van het systeem, van de logische werking en van de gebruikersinterface. Overleg met je docent als je dit zou willen!
+
+:::
+
 ## Beoordeling
 
 Het verslag wordt beoordeeld aan de hand van vier rubrics: de eerste rubric beschrijft een aantal algemene aspecten van het verslag, de volgende drie rubrics gaan specifiek over de hoofdstukken fysiek, logisch en de gebruikersinterface.
