@@ -23,6 +23,8 @@ Computers zijn universele machines: ze kunnen in principe alles. Voor deze opdra
 - Verkoopautomaat voor koekjes of koffie
 - IBM's quantum processor
 
+Kies wel een concreet apparaat, zodat je ook echt kan uitzoeken hoe het werkt! Niet elke magnetron heeft dezelfde gebruikersinterface, dus kies de magnetron die bij jou in de keuken staat. Niet elk kruispunt met stoplichten gebruikt dezelfde logica, dus neem een kruispunt in de buurt dat je goed kent of waar je een tijdje naar kunt kijken om te zien hoe het functioneert. Zo kun je ook daadwerkelijk iets zinnigs zeggen over het systeem en heb je aan het eind niet een verslag vol vage algemeenheden.
+
 Eigen ideeën zijn ook van harte welkom! Overleg met je docent welk systeem je gaat onderzoeken.
 
 ## Het verslag
