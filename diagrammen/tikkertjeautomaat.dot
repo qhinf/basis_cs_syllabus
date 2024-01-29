@@ -1,0 +1,12 @@
+digraph {
+    rankdir = "LR"
+    A -> B 
+    B -> A [label = "tikt A"]
+    D -> B [label = "tikt B"]
+    D -> C
+    D -> A
+    A -> C [label = "tikt C"]
+    C -> A
+    C -> B
+    B -> C
+}

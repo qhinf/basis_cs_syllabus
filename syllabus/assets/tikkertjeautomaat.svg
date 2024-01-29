@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="222pt" height="204pt" viewBox="0.00 0.00 222.43 204.43">
+<g id="graph0" class="graph" transform="translate(4,200.42999267578125) scale(1)" data-name="">
+<polygon fill="white" stroke="none" points="-4,4 -4,-200.43 218.43,-200.43 218.43,4 -4,4"/>
+<!-- Tikkertje -->
+<g id="node1" class="node" pointer-events="visible" data-name="A" data-comment="Tikkertje">
+
+<ellipse fill="none" stroke="black" cx="107.21" cy="-18" rx="27" ry="18"/>
+<text text-anchor="middle" x="107.21" y="-13.8" font-family="Times,serif" font-size="14.00">A</text>
+</g>
+<!-- B -->
+<g id="node2" class="node" pointer-events="visible" data-name="B">
+
+<ellipse fill="none" stroke="black" cx="187.43" cy="-98.21" rx="27" ry="18"/>
+<text text-anchor="middle" x="187.43" y="-94.01" font-family="Times,serif" font-size="14.00">B</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge" data-name="A-&gt;B">
+
+<path fill="none" stroke="black" d="M116.81,-34.9C127.25,-47.67 144.15,-65.09 158.85,-78.47"/>
+<polygon fill="black" stroke="black" points="156.23,-80.83 166.05,-84.83 160.86,-75.59 156.23,-80.83"/>
+</g>
+<!-- B&#45;&gt;A -->
+
+<!-- A&#45;&gt;C -->
+<g id="edge6" class="edge" data-name="A-&gt;C">
+
+<path fill="none" stroke="black" d="M87.06,-30.31C73.77,-41.59 56.68,-58.46 44.06,-72.6"/>
+<polygon fill="black" stroke="black" points="41.71,-69.97 37.85,-79.84 47.02,-74.53 41.71,-69.97"/>
+<text text-anchor="middle" x="49.81" y="-55.66" font-family="Times,serif" font-size="14.00">tikt C</text>
+</g>
+<!-- B&#45;&gt;A -->
+<g id="edge2" class="edge" data-name="B-&gt;A">
+
+<path fill="none" stroke="black" d="M177.84,-81.32C167.4,-68.54 150.49,-51.13 135.79,-37.74"/>
+<polygon fill="black" stroke="black" points="138.41,-35.38 128.6,-31.39 133.78,-40.63 138.41,-35.38"/>
+<text text-anchor="middle" x="140.68" y="-63.73" font-family="Times,serif" font-size="14.00">tikt A</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge9" class="edge" data-name="B-&gt;C">
+
+<path fill="none" stroke="black" d="M161.3,-93.07C135.04,-91.18 94.31,-90.96 64.58,-92.4"/>
+<polygon fill="black" stroke="black" points="64.68,-88.88 54.9,-92.97 65.09,-95.87 64.68,-88.88"/>
+</g>
+<!-- D -->
+<g id="node3" class="node" pointer-events="visible" data-name="D">
+
+<ellipse fill="none" stroke="black" cx="107.21" cy="-178.43" rx="27" ry="18"/>
+<text text-anchor="middle" x="107.21" y="-174.23" font-family="Times,serif" font-size="14.00">D</text>
+</g><g id="node4" class="node" pointer-events="visible" data-name="C" data-comment="D">
+
+<ellipse fill="none" stroke="black" cx="27" cy="-98.21" rx="27" ry="18"/>
+<text text-anchor="middle" x="27" y="-94.01" font-family="Times,serif" font-size="14.00">C</text>
+</g>
+<!-- D&#45;&gt;A -->
+<g id="edge5" class="edge" data-name="D-&gt;A">
+
+<path fill="none" stroke="black" d="M107.21,-160.03C107.21,-132.46 107.21,-80.2 107.21,-47.34"/>
+<polygon fill="black" stroke="black" points="110.71,-47.7 107.21,-37.7 103.71,-47.7 110.71,-47.7"/>
+</g>
+<!-- D&#45;&gt;B -->
+<g id="edge3" class="edge" data-name="D-&gt;B">
+
+<path fill="none" stroke="black" d="M122.3,-163.34C134.1,-151.54 150.72,-134.93 164.21,-121.43"/>
+<polygon fill="black" stroke="black" points="166.47,-124.12 171.07,-114.58 161.52,-119.17 166.47,-124.12"/>
+<text text-anchor="middle" x="127.5" y="-146.59" font-family="Times,serif" font-size="14.00">tikt B</text>
+</g>
+<!-- D&#45;&gt;C -->
+<g id="edge4" class="edge" data-name="D-&gt;C">
+
+<path fill="none" stroke="black" d="M92.13,-163.34C80.33,-151.54 63.71,-134.93 50.22,-121.43"/>
+<polygon fill="black" stroke="black" points="52.91,-119.17 43.36,-114.58 47.96,-124.12 52.91,-119.17"/>
+</g>
+<!-- C&#45;&gt;A -->
+<g id="edge7" class="edge" data-name="C-&gt;A">
+
+<path fill="none" stroke="black" d="M47.16,-85.91C60.44,-74.62 77.54,-57.76 90.15,-43.61"/>
+<polygon fill="black" stroke="black" points="92.51,-46.24 96.37,-36.38 87.2,-41.68 92.51,-46.24"/>
+</g>
+<!-- C&#45;&gt;B -->
+<g id="edge8" class="edge" data-name="C-&gt;B">
+
+<path fill="none" stroke="black" d="M53.13,-103.35C79.39,-105.24 120.12,-105.47 149.84,-104.03"/>
+<polygon fill="black" stroke="black" points="149.75,-107.54 159.53,-103.46 149.34,-100.56 149.75,-107.54"/>
+</g>
+</g>
+</svg>
