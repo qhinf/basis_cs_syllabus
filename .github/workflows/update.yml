@@ -1,0 +1,30 @@
+name: Update syllabi
+
+on:
+  push
+
+jobs:
+  update_syllabi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get syllabus name
+        # Get the name of this syllabus from the repository (owner/repo_name) by
+        # stripping off the owner/ prefix and the _syllabus suffix
+        run: |
+          echo "NAME=$(basename ${{ github.repository }} _syllabus)" >> $GITHUB_ENV
+      - name: Call syllabi/update.yml
+        uses: octokit/request-action@v2.x
+        with:
+          route: POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches
+          owner: qhinf
+          repo: syllabi
+          workflow_id: update.yml
+          ref: main
+          inputs: |
+            name: ${{ format('{0}/{1}', env.NAME, github.ref_name) }}
+            ref: ${{ github.sha }}
+            url: ${{ github.repositoryUrl }}
+            branch: ${{ github.ref_name }}
+            add: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_SYLLABI_UPDATE }}
