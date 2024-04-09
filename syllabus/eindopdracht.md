@@ -1,6 +1,6 @@
 # Eindopdracht
 
-Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, hoe het systeem logisch functioneert (met een automaat!) en je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp. Deze onderdelen voeg je samen in een [verslag](#het-verslag), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-highschool.nl).
+Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, hoe het systeem logisch functioneert (met een automaat!) en je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp. Deze onderdelen voeg je samen in een [verslag](#het-verslag) (in wat voor vorm dan ook), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-highschool.nl).
 
 Je maakt deze opdracht in tweetallen, die we vormen tijdens de eerste fysieke les. Tijdens de lessen op afstand krijg je de tijd om met de opdracht aan de slag te gaan en vragen te stellen bij je docent. Aan het eind van de lessen op afstand heb je de mogelijkheid om je werk tot dan toe in te leveren via Teams en alvast feedback te krijgen op dat deel. Doe er je voordeel mee!
 
@@ -24,6 +24,8 @@ Computers zijn universele machines: ze kunnen in principe alles. Voor deze opdra
 - IBM's quantum processor
 
 Kies wel een concreet apparaat, zodat je ook echt kan uitzoeken hoe het werkt! Niet elke magnetron heeft dezelfde gebruikersinterface, dus kies de magnetron die bij jou in de keuken staat. Niet elk kruispunt met stoplichten gebruikt dezelfde logica, dus neem een kruispunt in de buurt dat je goed kent of waar je een tijdje naar kunt kijken om te zien hoe het functioneert. Zo kun je ook daadwerkelijk iets zinnigs zeggen over het systeem en heb je aan het eind niet een verslag vol vage algemeenheden.
+
+Verslagen over "de magnetron" of "een kruispunt" in het algemeen worden niet beoordeeld. Het gaat erom dat je je analyse-skills laat zien en dat kan alleen als je een concreet systeem kiest dat je (minstens van de buitenkant) in het echt kunt observeren.
 
 Eigen ideeën zijn ook van harte welkom! Overleg met je docent welk systeem je gaat onderzoeken.
 
@@ -55,6 +57,8 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
 
    - Per persoon: wat vond je van deze module? Wat heb jij ervan geleerd? Wat zouden we anders moeten doen? (Ongeveer 100 woorden.)
    - Werkverdeling: wie heeft wat gedaan?
+
+De vorm van dit verslag is open: je mag een "standaard" geschreven verslag maken, maar een video of (opgenomen) presentatie is ook prima. Heb je een goed idee voor een stripverhaal om dit in te verwerken? Doen! Een dansvoorstelling? Ik ben benieuwd!
 
 :::{admonition} Saai? 🥱😴
 :class: note
