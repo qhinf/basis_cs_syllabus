@@ -94,4 +94,4 @@ Beschrijf de gebruikersinterface van jullie systeem en evalueer de usability aan
 
 Waarschijnlijk is het systeem niet perfect. Hoe zouden jullie het systeem verbeteren? Maak een schets van jullie verbeteringen en leg uit waarom jullie versie een betere usability heeft. Test eventueel jullie verbetering met een testgebruiker. Voor zo'n test kun je een papieren prototype gebruiken, op basis van de schets. Bekijk [deze video](https://www.youtube.com/watch?v=yafaGNFu8Eg) voor een voorbeeld van een test met een papieren prototype. Beschrijf de resultaten: waar liep de testgebruiker tegenaan? Is het door jullie wijzigingen beter geworden, of juist slechter?
 
-Zie [de rubric bij de eindopdracht](eindopdracht.md#logisch) om te zien hoe dit onderdeel beoordeeld wordt.
+Zie [de rubric bij de eindopdracht](eindopdracht.md#toepassingen) om te zien hoe dit onderdeel beoordeeld wordt.
