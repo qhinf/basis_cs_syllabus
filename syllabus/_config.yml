@@ -2,6 +2,7 @@
 # https://jupyterbook.org/customize/config.html
 
 title: Basis van Computer Science
+banner: assets/banner.png
 
 # Auteur is verplicht, maar wordt voor de syllabus site automatisch aangepast op
 # basis van de commitgeschiedenis.
