@@ -53,10 +53,10 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      deadline: "donderdag 16 januari, 16:00"
-      deadline_uitstel_aanvragen: "maandag 6 januari, 16:00"
-      deadline_uitstel: "dinsdag 4 februari, 16:00"
-      docent: "Allart van den Berg"
-      docent_email: "a punt vandenberg apenstaartje candea punt nl"
+      deadline: "donderdag 20 maart, 16:00"
+      deadline_uitstel_aanvragen: "maandag 10 maart, 16:00"
+      deadline_uitstel: "dinsdag 8 april, 16:00"
+      docent: "Pieter van Engelen"
+      docent_email: "p punt vanengelen apenstaartje quadraam punt nl"
 # html, repository en launch_buttons instellingen worden globaal voor alle
 # syllabi afgehandeld.
