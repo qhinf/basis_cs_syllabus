@@ -7,7 +7,7 @@ root: index
 parts:
   - caption: Over de module
     chapters:
-    - file: lesplanning
+    - file: planning
     - file: eindopdracht
   - caption: Inhoud
     numbered: true

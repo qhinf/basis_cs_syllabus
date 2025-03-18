@@ -17,9 +17,9 @@ Zoals gebruikelijk bestaat de module uit een aantal fysieke lessen en een aantal
 
 Over inleveren gesproken, hier zijn enkele belangrijke data wat dat betreft:
 
-- Deadline voor het inleveren van de eindopdracht: **{{ deadline }}**
-- Deadline voor het aanvragen van het tweede inlevermoment: **{{ deadline_uitstel_aanvragen }}**
-  - Tweede inlevermoment: **{{ deadline_uitstel }}**
+- Eerste inlevermoment voor de eindopdracht: **{{ eerste_inlevermoment }}**
+- Tweede inlevermoment voor de eindopdracht: **{{ tweede_inlevermoment }}**
+  - Meld je voor **{{ tweede_inlevermoment_melden }}** om het tweede inlevermoment te gebruiken
 
 Inhoudsopgave:
 

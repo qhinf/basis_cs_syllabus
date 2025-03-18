@@ -8,7 +8,7 @@ Het is bij deze opdracht belangrijk dat je je bronnen vermeldt. De bronnen waar 
 
 Wat betreft het inleveren: zorg dat jullie beider namen op de eerste pagina van het verslag vermeld zijn. Iedereen levert het verslag zelf in, dus van elk tweetal krijg ik twee keer hetzelfde verslag (dat is zodat het voor de administratie duidelijk is waar je het cijfer voor hebt gekregen). Inleveren doe je zoals altijd op [app.q-highschool.nl](https://app.q-highschool.nl).
 
-De deadline voor het inleveren is {{ deadline }}. Als je meer tijd nodig hebt, dan kun je ervoor kiezen van het tweede inlevermoment gebruik te maken. Laat het voor {{ deadline_uitstel_aanvragen }} weten aan je docent ({{ docent }}, {{ docent_email }}) als je dat wilt. Het tweede inlevermoment is op {{ deadline_uitstel }}.
+De deadline voor het inleveren is {{ eerste_inlevermoment }}. Als je meer tijd nodig hebt, dan kun je ervoor kiezen van het tweede inlevermoment gebruik te maken. Laat het voor {{ tweede_inlevermoment_melden }} weten aan je docent ({{ docent }}, {{ docent_email }}) als je dat wilt. Het tweede inlevermoment is op {{ tweede_inlevermoment }}.
 
 ## Mogelijke systemen
 
