@@ -48,7 +48,17 @@ Wat is de kortste route (minste boottochten) om op schateiland te komen? Is er e
 
 Zoals je bij het schateiland uitzoekt welke transities je kunt nemen vanaf elk eiland, kun je bij elk systeem uitzoeken wat de mogelijke transities zijn en in welke toestanden je dan terecht komt. Zo kun je alle mogelijkheden van een systeem beschrijven en schematisch weergeven hoe een systeem logisch werkt.
 
-:::{exercise} De mysterieuze munt
+:::{exercise} Het Floerp en Mun apparaat
+Op [deze site](https://qhinf.github.io/basis_cs_machine/) vind je een bijzonder apparaat dat draait op floerp en mun en daarmee een output produceert. Begin met de simpelere mini variant en zoek uit:
+
+1. Welke verschillende staten zijn er voor dit apparaat? Hoe weet je dat je een complete lijst hebt?
+2. Welke acties doe je om van de ene naar de andere staat te komen?
+3. Teken een automaat met de staten en de acties als transities.
+
+Het volledige FloerpMun apparaat is veel uitgebreider en misschien wil je niet precies alle verschillende staten uittekenen (het zijn er oneindig veel!). Wat zijn goede staten om samen te voegen? Kun je daarmee nog wel een automaat tekenen die de belangrijkste functionaliteit beschrijft?
+:::
+
+:::{exercise} Extra: De mysterieuze munt
 Vrienden hebben op het internet een spelletje gevonden waar een robot een munt opgooit en de speler moet proberen te raden of het kop of munt gaat worden. In eerste instantie leek het heel eenvoudig, de kans om te winnen was 50/50 — althans dat dachten ze. Na een tijdje begonnen ze argwanend te worden. Er leek wel een patroon te zitten in de worpen van de munt.
 
 Was het spel eerlijk? Helemaal niet! Ze besloten het te onderzoeken. Marie hield vanaf nu de resultaten bij en dit is wat ze vond: (k = kop, m = munt)
