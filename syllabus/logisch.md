@@ -145,7 +145,7 @@ Probeer het systeem zo precies mogelijk te beschrijven. Dat is belangrijker dan 
 
 Als je de basis hebt staan, kun je die verder uitbreiden door meer onderdelen van het systeem in detail te beschrijven. Als het systeem te groot is, kun je de automaat opdelen in verschillende stukken die verschillende processen of ingewikkelde stappen in een proces beschrijven. In elk onderdeel overlapt dan een begintoestand met een toestand uit een ander deel.
 
-Maak gebruik van [draw.io](https://app.diagrams.net) om een leesbare tekening van de automaat te maken. Als je het bestand opslaat in Google Drive, is het via de knop *Delen* rechtsbovenin ook mogelijk om samen aan dit bestand te werken.
+Maak een Visio-tekening aan in de Werkplaats om je diagram te tekenen. Zie de Werkplaatshandleiding (in de Werkplaats) voor tips bij het tekenen van een automaat.
 
 Naast een duidelijke tekening van de automaat geef je ook een tekstuele beschrijving die de lezer door de verschillende delen van de automaat loodst en de processen beschrijft. Leg uit welke keuzes je hebt gemaakt bij het maken van de automaat, welke aspecten je hebt versimpeld en welke delen je hebt weggelaten.
 
