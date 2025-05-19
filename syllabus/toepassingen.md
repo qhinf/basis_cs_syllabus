@@ -77,15 +77,16 @@ Als er iets fout gaat in je systeem, zorg dan dat de gebruiker weet wat dat is e
 Het is natuurlijk het beste als je systeem geen uitleg nodig heeft, maar toch is het altijd goed om een duidelijke handleiding of andere bron van hulp te hebben. In veel traditionele computerprogramma's kun je op F1 drukken om het hulpvenster te openen. Vooral in ingewikkelde applicaties als Photoshop kan dat heel handig zijn. Bij modernere applicaties en webapps ontbreekt die functionaliteit vaak, maar kun je soms wel via een chat om hulp vragen.
 
 :::{exercise}
-*Opdracht tijdens de les.*
+*Opdracht tijdens de bijeenkomst.*
 
 Maak een korte presentatie (max 5 min) over één van de vuistregels hierboven, met goede en slechte voorbeelden.
 
-Je krijgt van je docent één van de vuistregels toegewezen. Verwerk in je presentatie deze drie onderdelen en beantwoord de vragen:
+Je krijgt van je docent één van de vuistregels toegewezen. Verwerk in je presentatie deze vier onderdelen en beantwoord de vragen:
 
 - Leg aan je klasgenoten uit wat de vuistregel inhoudt. Lees daarvoor de uitleg hierboven en bekijk ook de uitgebreidere uitleg in [het originele artikel (EN)](https://www.nngroup.com/articles/ten-usability-heuristics/).
 - Voorbeelden van systemen, apparaten, programma's, apps of websites waar de vuistregel goed wordt nageleefd. Zijn deze hierdoor makkelijker te gebruiken?
 - Voorbeelden waar de vuistregel niet wordt nageleefd. Zijn deze moeilijker te gebruiken? Hoe zouden jullie dit voorbeeld verbeteren?
+- Wordt deze vuistregel in jullie systeem (of systemen) goed toegepast?
 :::
 
 ## Eindopdracht
