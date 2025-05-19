@@ -35,7 +35,7 @@ Er zien vier toestanden: persoon A is de tikker, persoon B is de tikker, persoon
 :::
 
 :::{exercise} Schateiland
-Deze opdracht doen we tijdens de les.
+Deze opdracht doen we tijdens de bijeenkomst.
 
 ![Een kaart met 7 eilanden: Scheepswrakkenbaai, Dodemanseiland, Schateiland, Pirateneiland, Smokkelaarsgrot, Muiterseiland en Musketheuvel.](assets/schateiland.png)
 

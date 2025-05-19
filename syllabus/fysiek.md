@@ -3,9 +3,9 @@
 Hoewel de eerste informatici hun werk deden zonder computers, beginnen wij in deze module wel bij de fysieke hardware waaruit een computer is opgebouwd. Daar is een heleboel over te vinden, dus we gaan jullie niet uitleggen welke onderdelen er allemaal zijn: daarvoor gaan jullie zelf op onderzoek uit! 
 
 :::{exercise}
-Tijdens de les krijg je een computer en een paar schroevendraaiers. Probeer zo veel mogelijk uit te vinden over de computer en alle onderdelen. Je mag alles losschroeven en open maken, maar aan het eind van de les moet alles wel weer in elkaar zitten! Maak dus veel foto's tussendoor, zodat je precies terug kunt kijken waar elk onderdeel vandaan kwam en waar dat ene stekkertje nou nog maar weer in zat...
+Tijdens de bijeenkomst krijg je een computer en een paar schroevendraaiers. Probeer zo veel mogelijk uit te vinden over de computer en alle onderdelen. Je mag alles losschroeven en open maken, maar aan het eind van de bijeenkomst moet alles wel weer in elkaar zitten! Maak dus veel foto's tussendoor, zodat je precies terug kunt kijken waar elk onderdeel vandaan kwam en waar dat ene stekkertje nou nog maar weer in zat...
 
-Tijdens de les bespreken we wat jullie gevonden hebben. Hier hebben we een paar vragen om je op weg te helpen bij het onderzoek:
+Tijdens de bijeenkomst bespreken we wat jullie gevonden hebben. Hier hebben we een paar vragen om je op weg te helpen bij het onderzoek:
 
 - Welke onderdelen zitten in deze computer?
 - Hoe heten deze onderdelen?

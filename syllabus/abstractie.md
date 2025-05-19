@@ -29,5 +29,5 @@ Ga in je huis op zoek naar twee voorwerpen. Het ene voorwerp is daarbij een abst
 1. Welke details zijn weggelaten in de abstractie?
 2. Wat is volgens het abstracte voorwerp de essentie van dit ding?
 
-Zorg dat je beide voorwerpen bij de hand hebt tijdens de eerste (online) les.
+Zorg dat je beide voorwerpen bij de hand hebt tijdens de eerste (online) bijeenkomst.
 :::
