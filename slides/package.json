@@ -1,0 +1,23 @@
+{
+    "scripts": {
+        "serve": "npm run clean && node build.js serve",
+        "build": "npm run clean && node build.js build",
+        "clean": "rimraf dist"
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "reveal.js": "^5.1.0",
+        "tldreveal": "~1.1.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.4",
+        "@types/react-dom": "^18.3.0",
+        "@types/reveal.js": "^5.0.3",
+        "esbuild": "^0.20.2",
+        "esbuild-plugin-copy": "^2.1.1",
+        "js-yaml": "^4.1.0",
+        "rimraf": "^5.0.10",
+        "typescript": "^5.5.4"
+    }
+}

@@ -1,0 +1,62 @@
+:root {
+    --font-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    --r-main-font: system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Helvetica, Arial, "Helvetica Neue", sans-serif, var(--font-emoji);
+
+    --r-heading-font: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif, var(--font-emoji);
+    --r-heading-font-weight: 600;
+    --r-heading-text-transform: none;
+}
+
+.reveal a {
+    text-decoration: underline;
+}
+
+.reveal table.noborder td {
+    border-bottom: none;
+}
+
+@counter-style mc-teams {
+    system: fixed;
+    symbols: "\1F44D" "\2764\FE0F" "\1F606" "\1F62E";
+    suffix: "  ";
+}
+
+@counter-style mc-hands {
+    system: fixed;
+    symbols: "\1F590\FE0F" "\270C\FE0F" "\270A" "\1F64C";
+    suffix: "  ";
+}
+
+.mc-teams ul.mc {
+    list-style: mc-teams;
+}
+
+.mc-hands ul.mc {
+    list-style: mc-hands;
+}
+
+ul.mc {
+    min-width: 60%;
+}
+
+ul.mc li {
+    padding: 0 .5em;
+}
+
+ul.mc:not(.grid) li:not(:last-child) {
+    padding-bottom: .3em;
+    margin-bottom: .3em;
+    border-bottom: 1px solid var(--r-main-color);
+}
+
+ul.mc.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ul.mc.grid li {
+    /* TODO: not a great solution, find a way to get the bullet within the grid
+    cells without messing up the list-item layout */
+    list-style-position: inside;
+}

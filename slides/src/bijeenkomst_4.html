@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basis van Computer Science / Bijeenkomst 4</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <div class="reveal" id="basis_cs/4">
+        <div class="slides">
+            <section>
+                <section>
+                    <h1>De logische laag</h1>
+                    <p>Q-highschool / Basis van CS / Bijeenkomst 4</p>
+                </section>
+                <section>
+                    <img class="r-stretch" src="assets/lagen.svg" alt="">
+                </section>
+            </section>
+            <section>
+                <h2>Informatie</h2>
+                <small>Q-highschool / Basis van CS / Bijeenkomst 4</small>
+                <aside class="notes">
+                    <ul>
+                        <li>Kleinste hoeveelheid informatie? Welke vraag stel je bij Wie is het? → 1 of 0</li>
+                        <li><a href="https://www.csunplugged.org/en/topics/error-detection-and-correction/parity-magic/">Parity magic</a></li>
+                        <li>Toestanden van de computer: 1 of 0 voor elke bit in het geheugen</li>
+                        <li>Dus kunnen we stap voor stap uittekenen hoe een computer werkt!</li>
+                    </ul>
+                </aside>
+            </section>
+            <section>
+                <section>
+                    <h2>Automaten</h2>
+                    <small>Q-highschool / Basis van CS / Bijeenkomst 4</small>
+                </section>
+                <section>
+                    <h3 style="position: relative; top: -240px;">Wat is een automaat?</h3>
+                    <aside class="notes">
+                        Toestanden en transities; teken op het bord: vier toestanden, transities daartussen
+                    </aside>
+                </section>
+                <section>
+                    <h3>Koffieautomaat</h3>
+                    <ul>
+                        <li>Toestanden<span class="fragment">: wat doet het apparaat op dit moment</span></li>
+                        <li>Transities<span class="fragment">: acties van de gebruiker of automatische acties</span></li>
+                    </ul>
+                    <img src="assets/bijeenkomst_4/koffieautomaat.png">
+                </section>
+                <section>
+                    <h3>Tikkertje met 4 personen</h3>
+                    <p class="fragment-fade">Welke toestanden? Welke transities?</p>
+                    <aside class="notes">
+                        Denken, delen, uitwisselen.
+                    </aside>
+                </section>
+                <section>
+                    <h3>Boter-kaas-en-eieren</h3>
+                    <div class="r-stack r-stretch">
+                        <img src="assets/bijeenkomst_4/bke_start.svg" alt="">
+                        <img class="fragment fade-in-then-out" src="assets/bijeenkomst_4/bke_1.svg" alt="">
+                        <img class="fragment fade-in-then-out" src="assets/bijeenkomst_4/bke_volledig.svg" alt="">
+                    </div>
+                    <aside class="notes">
+                        Heel veel staten om te tekenen, maar niet bizar veel. Hoeveel? Misschien heeft straks iemand zin om dat uit te rekenen.
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <section data-auto-animate id="schateiland-opdracht">
+                    <h3>Schateiland</h3>
+                    <img class="r-stretch" src="assets/bijeenkomst_4/schateiland.png" alt="">
+                    <aside class="notes">
+                        Je wilt van pirateneiland naar schateiland, vind de snelste route. Je mag aan een eiland vragen waar je terechtkomt als je een bepaalde boot kiest. Je mag niet twee keer achter elkaar hetzelfde eiland vragen.
+                    </aside>
+                </section>
+                <section data-auto-animate id="schateiland-oplossing">
+                    <h3>Schateiland</h3>
+                    <img class="r-stretch" src="assets/bijeenkomst_4/schateiland.png" alt="">
+                    <aside class="notes">
+                        <ul>
+                            <li>Snelste route?</li>
+                            <li>Niet twee keer na elkaar dezelfde boot?</li>
+                            <li>Is er een langste route? Lussen...</li>
+                        </ul>
+                        <p>Link naar systemen! Uitzoeken hoe iets werkt.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Aan de slag</h3>
+                    <a class="r-stretch" href="https://informatica.q-highschool.nl/basis_cs/2425-4/logisch.html">
+                        <img src="assets/bijeenkomst_4/floerpmun.png" alt="">
+                    </a>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2>Turing machines en wat computers niet kunnen</h2>
+                    <small>Q-highschool / Basis van CS / Bijeenkomst 4</small>
+                </section>
+                <section>
+                    <h3>Stoppen of wachten?</h3>
+                    <table class="r-stretch">
+                        <tr>
+                            <td><img src="assets/bijeenkomst_4/notepad_not_responding.png" alt=""></td>
+                            <td><img src="assets/bijeenkomst_4/android_not_responding.png" alt=""></td>
+                        </tr>
+                    </table>
+                    <small>
+                        Bron: <a href="https://learn.microsoft.com/en-us/windows/win32/win7appqual/preventing-hangs-in-windows-applications">Microsoft Learn</a>
+                        / <a href="https://www.youtube.com/watch?v=eHjHlujp3Tg&t=840s">Android Developers</a>
+                    </small>
+                </section>
+                <section>
+                    <h3>Turing Machine</h3>
+                    <p>Een model voor hoe elke computer werkt</p>
+                    <ul>
+                        <li>Een Turing machine kan alles wat een computer kan</li>
+                        <li><b>Turing complete</b>: een machine die alles kan wat een Turing machine kan</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>PowerPoint is Turing complete</h3>
+                    <a class="r-stretch" href="https://www.youtube.com/watch?v=uNjxe8ShM-8">
+                        <img src="assets/bijeenkomst_4/powerpoint_turing_complete.png" alt="">
+                    </a>
+                    <aside class="notes">
+                        Dus met PowerPoint kun je in principe elke computer nabouwen (en in theorie PowerPoint uitvoeren)
+                    </aside>
+                </section>
+                <section>
+                    <h3>Minecraft is Turing complete</h3>
+                </section>
+                <section>
+                    <h3>Turing Machine</h3>
+                    <img class="r-stretch" src="assets/bijeenkomst_4/turing_automaat.svg" alt="">
+                    <img src="assets/bijeenkomst_4/turing_tape.svg" alt="">
+                    <aside class="notes">
+                        <ul>
+                            <li>Tape: geheugen; met een pointer naar de huidige cel</li>
+                            <li>
+                                Automaat, met drie labels bij transities
+                                <ul>
+                                    <li>Wat je leest op de tape</li>
+                                    <li>Wat je schrijft op de tape</li>
+                                    <li>Welke kant de pointer op beweegt</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>Voorbeeld: start in 1, lees 0, schrijf 1, naar rechts, in toestand 2</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Halting problem: stoppen of wachten?</h3>
+                    <aside class="notes">
+                        <ul>
+                            <li>We hebben een Turing machine waarvan we willen weten of die ooit stopt. (M)</li>
+                            <li>
+                                Stel dat we een Turing machine hebben die dat kan bepalen. (H)
+                                <ul>
+                                    <li>H stopt als die ziet dat M oneindig doorgaat</li>
+                                    <li>H gaat in een loop als die ziet dat M stopt</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Wat als we nu H vragen of H ooit stopt?
+                                <ul>
+                                    <li>Als H ooit stopt, dan stopt H niet</li>
+                                    <li>Als H nooit stopt, dan stopt H</li>
+                                </ul>
+                            </li>
+                            <li>Dat kan niet! Dus: H kan niet bestaan (foute aanname)</li>
+                        </ul>
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <h2>Volgende week</h2>
+                <ul>
+                    <li>Online</li>
+                    <li>
+                        Aan de slag met de eindopdracht:
+                        <ul>
+                            <li>De fysieke onderdelen van jullie systeem</li>
+                            <li>De logica van jullie systeem: teken een automaat!</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
