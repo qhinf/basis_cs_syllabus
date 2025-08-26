@@ -130,7 +130,10 @@ Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user sto
   - Matig (5)
   - Onvoldoende (3)
 * - *Een rubric volgt nog*
-
+  -
+  -
+  -
+  -
 :::
 
 ### Logisch
@@ -154,7 +157,10 @@ Naast een duidelijke tekening van de automaat geef je ook een tekstuele beschrij
   - Matig (5)
   - Onvoldoende (3)
 * - *Een rubric volgt nog*
-
+  -
+  -
+  -
+  -
 :::
 
 ## Beoordeling

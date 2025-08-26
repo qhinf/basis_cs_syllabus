@@ -6,18 +6,18 @@ We hebben gezien hoe computers en andere systemen zijn opgebouwd uit onderdelen,
 
 Mensen gebruiken een systeem met een bepaald doel: ze gebruiken een apparaat om iets te bereiken. Om overzichtelijk op te schrijven *wie* *wat* met een systeem wil doen om een *doel* te bereiken is er de *user story*. De user story heeft een vaste structuur met drie regels:
 
-**Als** informaticadocent
-**wil ik** in een Teamsmeeting mijn scherm delen,
+**Als** informaticadocent\
+**wil ik** in een Teamsmeeting mijn scherm delen,\
 **zodat ik** een presentatie aan de leerlingen kan laten zien.
 
-**Als** leerling bij de Q-highschool
-**wil ik** in de appsite zien welke modules ik nog moet volgen,
+**Als** leerling bij de Q-highschool\
+**wil ik** in de appsite zien welke modules ik nog moet volgen,\
 **zodat ik** mijn examen haal.
 
 In het algemeen is het formaat dus:
 
-**Als** *gebruiker van het systeem*
-**wil ik** *iets doen met het systeem*,
+**Als** *gebruiker van het systeem*\
+**wil ik** *iets doen met het systeem*,\
 **zodat ik** *een bepaald doel bereik*.
 
 Door user stories te schrijven voor iedere gebruiker van je systeem kun je duidelijk op een rij zetten welke functies allemaal in een systeem aanwezig moeten zijn.
