@@ -1,8 +1,8 @@
 # Eindopdracht
 
-Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, hoe het systeem logisch functioneert (met een automaat!) en je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp. Deze onderdelen voeg je samen in een [verslag](#het-verslag) (in wat voor vorm dan ook), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-highschool.nl).
+Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp en maakt een papieren prototype met een aantal verbeteringen, en beschrijft hoe het systeem logisch functioneert (met een automaat!). Deze onderdelen voeg je samen in een [verslag](#het-verslag) (in wat voor vorm dan ook), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-highschool.nl).
 
-Je maakt deze opdracht in tweetallen, die we vormen tijdens de eerste fysieke bijeenkomst. Tijdens de lessen op afstand krijg je de tijd om met de opdracht aan de slag te gaan en vragen te stellen bij je docent. Aan het eind van de lessen op afstand heb je de mogelijkheid om je werk tot dan toe in te leveren via Teams en alvast feedback te krijgen op dat deel. Doe er je voordeel mee!
+Je maakt deze opdracht in tweetallen, die we vormen aan het einde van de eerste fysieke bijeenkomst. Je krijgt tijdens de bijeenkomsten ook de tijd om aan de opdracht te werken, zodat je ook snel vragen kunt stellen als je ergens niet uitkomt of over een bepaalde keuze wilt overleggen. Doe er je voordeel mee!
 
 Het is bij deze opdracht belangrijk dat je je bronnen vermeldt. De bronnen waar je je informatie vandaan hebt gehaald vermeld je in een bijlage bij je verslag. Welke webpagina's heb je gelezen? Welke video's heb je bekeken? Welke personen heb je geïnterviewd? Zorg dat deze allemaal terug te vinden zijn in je bronnenlijst! Dat betekent overigens niet dat je uit deze bronnen mag kopiëren, dat zou plagiaat zijn. Pleeg geen plagiaat! Dus kopieer geen teksten van internet, steel geen plaatjes met copyright, etc. Je mag alleen origineel, eigen werk inleveren.
 
@@ -14,20 +14,17 @@ De deadline voor het inleveren is {{ eerste_inlevermoment }}. Als je meer tijd n
 
 Computers zijn universele machines: ze kunnen in principe alles. Voor deze opdracht is het juist interessanter om te kijken naar specifiekere systemen met beperktere functionaliteit. Deze systemen zijn bijvoorbeeld interessant om uit te zoeken:
 
-- Stoplichten op een kruispunt
-- TI-84 grafische rekenmachine
-- Huishoudelijke apparaten met meerdere instellingen, zoals
-    - (Combi-)magnetron
-    - Wasmachine
-    - Inductiekookplaat
 - Verkoopautomaat voor koekjes of koffie
-- IBM's quantum processor
+- Een (grafische) rekenmachine
+- Een Bluetooth speaker of koptelefoon
+- Complexere huishoudelijke apparaten met meerdere instellingen, zoals een (combi-)magnetron, wasmachine of inductiekookplaat
+- Tablet, telefoon, handheld spelcomputer of e-reader
 
-Kies wel een concreet apparaat, zodat je ook echt kan uitzoeken hoe het werkt! Niet elke magnetron heeft dezelfde gebruikersinterface, dus kies de magnetron die bij jou in de keuken staat. Niet elk kruispunt met stoplichten gebruikt dezelfde logica, dus neem een kruispunt in de buurt dat je goed kent of waar je een tijdje naar kunt kijken om te zien hoe het functioneert. Zo kun je ook daadwerkelijk iets zinnigs zeggen over het systeem en heb je aan het eind niet een verslag vol vage algemeenheden.
+Eigen ideeën zijn ook van harte welkom! Overleg altijd met je docent welk systeem je gaat onderzoeken.
 
-Verslagen over "de magnetron" of "een kruispunt" in het algemeen worden niet beoordeeld. Het gaat erom dat je je analyse-skills laat zien en dat kan alleen als je een concreet systeem kiest dat je (minstens van de buitenkant) in het echt kunt observeren.
+Kies wel een concreet apparaat, zodat je ook echt kan uitzoeken hoe het werkt! Niet elke magnetron heeft dezelfde gebruikersinterface, dus kies de magnetron die bij jou in de keuken staat. Zo kun je ook daadwerkelijk iets zinnigs zeggen over het systeem en heb je aan het eind niet een verslag vol vage algemeenheden.
 
-Eigen ideeën zijn ook van harte welkom! Overleg met je docent welk systeem je gaat onderzoeken.
+Verslagen over "de magnetron" of "een Bluetooth speaker" in het algemeen worden niet beoordeeld. Het gaat erom dat je je analyse-skills laat zien en dat kan alleen als je een concreet systeem kiest dat je (minstens van de buitenkant) in het echt kunt observeren.
 
 ## Het verslag
 
@@ -39,15 +36,15 @@ Het verslag bestaat uit zes delen, waarvan je drie delen tijdens de lessen hebt 
 
 2. Beschrijving van de fysieke onderdelen
 
-   Zie [de beschrijving hier](fysiek.md#eindopdracht).
+   Zie [de beschrijving hieronder](#fysiek).
 
-3. Beschrijving van de logische werking met een automaat
+3. User stories, evaluatie van de gebruikersinterface en een papieren prototype
 
-   Zie [de beschrijving hier](logisch.md#eindopdracht).
+   Zie [de beschrijving hieronder](#toepassingen).
 
-4. Evaluatie van de gebruikersinterface
+4. Beschrijving van de logische werking met een automaat
 
-   Zie [de beschrijving hier](toepassingen.md#eindopdracht).
+   Zie [de beschrijving hieronder](#logisch).
 
 5. Conclusie
 
@@ -67,9 +64,102 @@ Wil je meer uitdaging dan alleen het beschrijven van een systeem? Als uitbreidin
 
 :::
 
+### Fysiek
+
+Beschrijf de fysieke opbouw van het systeem dat jullie hebben gekozen voor de eindopdracht. Welke onderdelen zitten er in het systeem? Waar zijn die onderdelen voor? Hoe werken de onderdelen samen? Hoe communiceren de onderdelen met elkaar?
+
+Beschrijf de onderdelen in jullie systeem die van belang zijn voor de belangrijkste functie van het systeem en verdeel de onderdelen daarbij in [sensoren, actuatoren en besturing](fysiek.md#soorten-onderdelen). Voeg afbeeldingen toe en leg ook uit wat de functie van elk onderdeel in het systeem is. Zoek ook de chips die op printplaten in jullie systeem zitten verder uit en leg waar mogelijk de link naar de onderdelen die je in een computer tegenkomt. De meeste moderne systemen zijn (tot op zekere hoogte) computergestuurd, dus onderdelen als een CPU, werkgeheugen en opslag zijn meestal wel ergens te vinden.
+
+Als je het apparaat hebt dat je wilt onderzoeken en je kunt het uit elkaar halen: doe dat vooral. (Maar liever niet als dat apparaat nog in gebruik is...) Gebruik anders andere bronnen: tear-down video's, reparatie video's, reparatiehandleidingen (vooral bij oudere apparaten staat in de handleiding soms uitgebreid beschreven hoe het in elkaar zit!). Vraag mensen die er iets van weten, als je die kunt vinden! En als je niets kan vinden: logisch nadenken, wat is er nodig om dit te laten werken? Zoals altijd: vermeld je bronnen!
+
+:::{list-table}
+:header-rows: 1
+:stub-columns: 1
+:width: 100%
+
+* - 
+  - Goed (9)
+  - Voldoende (7)
+  - Matig (5)
+  - Onvoldoende (3)
+
+* - Volledigheid in onderdelen
+  - Alle relevante onderdelen genoemd
+  - Belangrijkste onderdelen genoemd, enkele kleine onderdelen ontbreken
+  - Alleen opvallende onderdelen genoemd, maar genoeg voor een redelijk idee van de werking
+  - Slechts een paar onderdelen genoemd
+
+* - Indeling in sensoren, actuatoren, besturing
+  - Alle onderdelen zijn correct verdeeld in de drie categorieën
+
+  - De meeste onderdelen zijn correct ingedeeld
+
+  - 
+  - De indeling van onderdelen is incorrect
+
+* - Beschrijving van onderdelen
+  - Duidelijke en correcte beschrijving van de functie en locatie van ieder onderdeel, inclusief afbeeldingen
+  - Van enkele onderdelen is de beschrijving incorrect of te summier
+  - 
+  - Voor de meeste onderdelen is de beschrijving incorrect of te summier
+
+* - Verbindingen en communicatie
+  - Duidelijke beschrijving van communicatie tussen belangrijke onderdelen, inclusief signalen of protocollen
+  - Duidelijk beschreven welke belangrijke onderdelen met elkaar communiceren
+  - Alleen globale beschrijving van communicatie tussen onderdelen
+  - Incorrecte beschrijving van de communicatie tussen onderdelen
+
+:::
+
+### Toepassingen
+
+Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user stories, vuistregels en papieren prototypes. Nu ga je  dit toepassen op jullie eigen systeem:
+
+1. Beschrijf de belangrijkste user stories voor jullie systeem. Wie zijn de gebruikers? Wat willen ze bereiken?
+2. Kies één van de user stories en ga na welke vuistregels beter toegepast kunnen worden in jullie systeem, zodat het makkelijker te gebruiken is.
+3. Maak een papieren prototype van jullie systeem, waarmee deze user story uitvoerbaar is. Pas twee verbeteringen toe in jullie papieren prototype, op basis van de vuistregels.
+
+:::{list-table}
+:header-rows: 1
+:stub-columns: 1
+:width: 100%
+
+* - 
+  - Goed (9)
+  - Voldoende (7)
+  - Matig (5)
+  - Onvoldoende (3)
+* - *Een rubric volgt nog*
+
+:::
+
+### Logisch
+
+Teken een automaat die beschrijft hoe jullie systeem werkt, op basis van de user story die je ook bij het vorige onderdeel hebt gebruikt. In welke toestanden kan het systeem zijn? (Denk aan de verschillende tekeningen die je in je papieren prototype hebt!) Welke acties kunnen gebruikers nemen? Welke acties gebeuren automatisch, bijvoorbeeld met een timer? In welke staten zijn die acties geldig? En naar welke staat ga je als zo'n actie is uitgevoerd?
+
+Probeer het systeem [zo precies mogelijk](logisch.md#wees-precies) te beschrijven, maar beperk je tot de onderdelen die nodig zijn om de user story uit te voeren. Als het systeem te groot is, kun je de automaat opdelen in verschillende stukken die verschillende processen of ingewikkelde stappen in een proces beschrijven. In elk onderdeel overlapt dan een begintoestand met een toestand uit een ander deel.
+
+Maak een Visio-tekening aan in de Werkplaats om je diagram te tekenen. Zie de Werkplaatshandleiding (in de Werkplaats) voor tips bij het tekenen van een automaat.
+
+Naast een duidelijke tekening van de automaat geef je ook een tekstuele beschrijving die de lezer door de verschillende delen van de automaat loodst en de processen beschrijft.
+
+:::{list-table}
+:header-rows: 1
+:stub-columns: 1
+:width: 100%
+
+* - 
+  - Goed (9)
+  - Voldoende (7)
+  - Matig (5)
+  - Onvoldoende (3)
+* - *Een rubric volgt nog*
+
+:::
+
 ## Beoordeling
 
-Het verslag wordt beoordeeld aan de hand van vier rubrics: de eerste rubric beschrijft een aantal algemene aspecten van het verslag, de volgende drie rubrics gaan specifiek over de hoofdstukken fysiek, logisch en de gebruikersinterface.
+Het verslag wordt beoordeeld aan de hand van vier rubrics: voor de drie onderdelen staat hierboven een rubric bij de uitleg en de vierde rubric hieronder beschrijft een aantal algemene aspecten van het verslag.
 
 Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in die tabel, je eindcijfer is het gemiddelde van die vier rubriccijfers. Als alle punten als goed zijn aangemerkt, wordt een 10 toegekend. Ontbrekende delen leveren een 1 op voor dat onderdeel. Bij grote verschillen in de werkverdeling, kunnen we verschillende cijfers toekennen.
 
@@ -105,81 +195,13 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
   - Het verslag is redelijk netjes.
   - Het verslag is te volgen, maar geeft geen verzorgde indruk.
   - Het verslag is niet te volgen of veel zinnen bevatten spelfouten of grammaticale fouten.
+* - Brongebruik en vermelding
+  - Relevante bronnen gebruikt (teardowns, handleidingen, datasheets, experts) en alle bronnen correct vermeld
+  - Meeste bronnen genoemd, maar niet altijd duidelijk vermeld *of* onbetrouwbare bronnen gebruikt
+  - Er is een bronvermelding, maar een of meer bronnen zijn niet duidelijk te herleiden (bijv. "ChatGPT"[^chatgpt], "Google Afbeeldingen", "Wikipedia" of "YouTube")
+  - Geen bronnen vermeld
+
 :::
 
-### Fysiek
+[^chatgpt]: Het is toegestaan om AI chatbots zoals ChatGPT te gebruiken, maar zorg dat in je bronvermelding duidelijk is wat je voor prompt hebt gegeven, wat het resultaat was en hoe je dat gebruikt hebt. Je kunt bijvoorbeeld een link naar het chatgesprek delen of screenshots toevoegen. 
 
-:::{list-table}
-:header-rows: 1
-:stub-columns: 1
-:width: 100%
-
-* - 
-  - Goed (9)
-  - Voldoende (7)
-  - Matig (5)
-  - Onvoldoende (3)
-* - Componenten
-  - Alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen (eigen foto's of schetsen, of van internet met bronvermelding). Bij elk onderdeel is ook uitgelegd wat de functie van dat onderdeel is bij gebruik van het systeem. Printplaten in het systeem worden verder onder de loep genomen om hun functie te beschrijven, inclusief relevante chips op de printplaat. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing. Onderdelen uit de besturing zijn waar mogelijk gelinkt aan standaard computeronderdelen (CPU, werkgeheugen, opslag, etc.).
-  - Vrijwel alle belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief afbeeldingen en een beschrijving van de functie van dat onderdeel. De onderdelen zijn verdeeld in sensoren, actuatoren en besturing.
-  - De meeste belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven, inclusief de functie van dat onderdeel.
-  - Enkele belangrijke onderdelen die nodig zijn voor de werking van het systeem zijn beschreven.
-* - Verbindingen
-  - Alle verbindingen tussen alle beschreven onderdelen zijn overzichtelijk beschreven, inclusief een schematische weergave. Daarbij is ook uitgelegd hoe gegevens over die verbinding worden uitgewisseld (is het een USB-kabel? Netwerkverbinding? Simpele elektrische signalen?).
-  - Alle verbindingen tussen alle beschreven onderdelen zijn overzichtelijk beschreven, inclusief een schematische weergave.
-  - De meeste verbindingen tussen alle beschreven onderdelen zijn overzichtelijk beschreven.
-  - Enkele belangrijke verbindingen tussen onderdelen zijn beschreven.
-:::
-
-### Logisch
-
-:::{list-table}
-:header-rows: 1
-:stub-columns: 1
-:width: 100%
-
-* - 
-  - Goed (9)
-  - Voldoende (7)
-  - Matig (5)
-  - Onvoldoende (3)
-* - Automaat
-  - De automaat beschrijft volledig de verschillende interacties die gebruikers met het systeem kunnen hebben en geeft een goed beeld van de volledige werking van het systeem. De automaat is een precieze beschrijving, dus er zijn geen interacties mogelijk in de automaat die niet werken in het systeem. Voor een systeem met veel toestanden is de automaat opgedeeld in duidelijke onderdelen, waarbij alle soorten processen verwerkt zijn.
-  - De automaat beschrijft de belangrijkste interacties met gebruikers en de belangrijkste processen in het systeem. De automaat is een redelijk precieze beschrijving, dus er zijn vrijwel geen interacties mogelijk in de automaat die niet werken in het systeem. Voor een systeem met veel toestanden is de automaat opgedeeld in duidelijke onderdelen, waarbij de belangrijkste processen verwerkt zijn.
-  - De automaat beschrijft enkele functies van het systeem. De interacties binnen die functies zijn allemaal weergegeven in de automaat, maar in de automaat zijn meer interacties mogelijk dan in het echte systeem.
-  - De automaat geeft geen goede beschrijving van het systeem: veel interacties in het systeem zijn niet weergegeven in de automaat.
-* - Beschrijving
-  - De beschrijving legt uit hoe de automaat in elkaar zit, hoe de verschillende toestanden er in de praktijk uitzien en hoe de transities in het echt plaatsvinden. Gemaakte keuzes, bijvoorbeeld voor het opdelen van de automaat en welke interacties en processen het belangrijkst zijn, worden goed onderbouwd.
-  - De beschrijving legt uit hoe de automaat in elkaar zit. Gemaakte keuzes, bijvoorbeeld voor het opdelen van de automaat en welke interacties en processen het belangrijkst zijn, worden onderbouwd.
-  - De beschrijving legt globaal uit hoe de automaat in elkaar zit. Gemaakte keuzes worden wel benoemd, maar niet onderbouwd.
-  - De beschrijving helpt niet bij het begrijpen van de automaat.
-:::
-
-### Toepassingen
-
-:::{list-table}
-:header-rows: 1
-:stub-columns: 1
-:width: 100%
-
-* - 
-  - Goed (9)
-  - Voldoende (7)
-  - Matig (5)
-  - Onvoldoende (3)
-* - Beschrijving van de gebruikersinterface
-  - De beschrijving omvat alle belangrijke aspecten van de gebruikersinterface: welke functies beschikbaar zijn en hoe mensen die kunnen gebruiken. Alle knoppen, schermen, hendels, lampjes, geluiden etc. worden genoemd. De verschillende toestanden die de interface aangeeft worden beschreven, inclusief afbeeldingen (foto's of schetsen).
-  - De beschrijving omvat de belangrijkste aspecten van de gebruikersinterface: de belangrijkste functies worden beschreven, inclusie hoe mensen die kunnen gebruiken. Daarbij worden de belangrijkste knoppen, schermen, hendels, lampjes, geluiden, etc. genoemd. De belangrijkste toestanden die de interface aangeeft worden beschreven, inclusief afbeeldingen (foto's of schetsen).
-  - De beschrijving geeft een beeld van de gebruikersinterface. De belangrijkste toestanden van de interface worden beschreven, inclusief afbeeldingen (foto's of schetsen).
-  - De beschrijving geeft geen helder beeld van de gebruikersinterface. Afbeeldingen ontbreken.
-* - Evaluatie met vuistregels
-  - Alle vuistregels komen aan bod in de evaluatie en bij elke vuistregel worden meerdere voorbeelden gegeven van het wel of niet toepassen van die regel in het systeem. De afwegingen bij conflicten tussen vuistregels worden helder uitgelegd, inclusief argumenten waarom daar wel of niet de juiste keuze gemaakt is. Als er geen conflicten optreden, dan wordt dat helder uitgelegd.
-  - Vrijwel alle vuistregels komen aan bod in de evaluatie met minstens één voorbeeld van het wel of niet toepassen van die regel in het systeem. Van enkele conflicten tussen vuistregels worden de afwegingen uitgelegd, inclusief argumenten waarom daar wel of niet de juiste keuze gemaakt is. Als er geen conflicten optreden, dan wordt dat helder uitgelegd.
-  - Minimaal vijf vuistregels komen aan bod in de evaluatie met minstens één voorbeeld van het wel of niet toepassen van die regel in het systeem. Van enkele conflicten tussen vuistregels worden de afwegingen uitgelegd.
-  - Slechts enkele vuistregels komen aan bod in de evaluatie, of voorbeelden ontbreken bij veel vuistregels. Conflicten tussen vuistregels worden niet besproken.
-* - Suggesties voor verbetering
-  - Er zijn meerdere suggesties voor verbeteringen aan het systeem, met een goede onderbouwing van elke verbetering aan de hand van de vuistregels. De verbeteringen zijn verwerkt in een papieren prototype, dat is getest met een testgebruiker.
-  - Er zijn meerdere suggesties voor verbeteringen aan het systeem, met een goede onderbouwing van elke verbetering aan de hand van de vuistregels. De verbeteringen worden met een paar schetsen duidelijk gepresenteerd.
-  - Er is minstens één suggestie voor een verbetering aan het systeem, met een onderbouwing aan de hand van de vuistregels.
-  - Er is minstens één suggestie voor een verbetering aan het systeem, maar die wordt niet onderbouwd.
-:::

@@ -1,6 +1,6 @@
 # De logische laag
 
-We hebben gezien hoe computers en andere systemen fysiek in elkaar steken, maar computers zijn natuurlijk niet alleen maar ene bouwpakket om in en uit elkaar te schroeven. We willen ook weten wat je ermee kan! Dat is de logische laag: hoe processen werken. We gaan beschrijven hoe systemen en processen werken aan de hand van *automaten*.
+We hebben gezien hoe computers en andere systemen fysiek in elkaar steken, en ook de toepassingen waar we ze voor kunnen gebruiken. De verbinding tussen die twee zit in de logische laag, die bepaalt hoe een systeem werkt en omgaat met de input van gebruikers. We gaan beschrijven hoe systemen en processen werken aan de hand van *automaten*.
 
 ## Software
 
@@ -58,6 +58,14 @@ Op [deze site](https://qhinf.github.io/basis_cs_machine/) vind je een bijzonder 
 Het volledige FloerpMun apparaat is veel uitgebreider en misschien wil je niet precies alle verschillende staten uittekenen (het zijn er oneindig veel!). Wat zijn goede staten om samen te voegen? Kun je daarmee nog wel een automaat tekenen die de belangrijkste functionaliteit beschrijft?
 :::
 
+### Wees precies
+
+Hieronder zie je twee automaten die je koffie kunnen geven als je €2 hebt ingeworpen, maar het zijn twee heel verschillende apparaten! Bij beide kun je twee muntjes van €1 inwerpen en daarna koffie halen, maar bij de tweede zijn er nog veel meer mogelijkheden. Je kunt bijvoorbeeld ook gewoon koffie halen zonder te betalen...
+
+![Twee automaten die een koffiemachine tonen. De eerste heeft 4 staten: Start, €1, €2 en Koffie maken. Er zijn transities van Start naar €1 (€1 inworp), van €1 naar €2 (€1 inworp), van €2 naar Koffie maken (Klik op koffie) en van Koffie maken terug naar Start (Koffie klaar). De tweede automaat heeft slechts twee staten: Start en Koffie maken. Er zijn transities van Start naar Start met als label €1 inworp, Start naar Koffie maken (Klik op koffie) en van Koffie maken naar Start (Koffie klaar).](assets/koffieautomaten.drawio.png)
+
+Als je een systeem beschrijft met een automaat, dan is het belangrijk om dat precies te doen: als de koffieautomaat alleen koffie voor €2 geeft, dan is het verwarrend als de automaat ook andere opties toestaat.
+
 :::{exercise} Extra: De mysterieuze munt
 Vrienden hebben op het internet een spelletje gevonden waar een robot een munt opgooit en de speler moet proberen te raden of het kop of munt gaat worden. In eerste instantie leek het heel eenvoudig, de kans om te winnen was 50/50 — althans dat dachten ze. Na een tijdje begonnen ze argwanend te worden. Er leek wel een patroon te zitten in de worpen van de munt.
 
@@ -78,7 +86,6 @@ Er is een eenvoudige automaat die de uitkomsten van de opeenvolgende worpen besc
 <details>
 <summary>Klik voor meer hints.</summary>
 De toestanden hebben hier geen betekenis, of er kop of munt wordt gegooid wordt bepaald door de transities die je neemt. Net als dat BABA een route tussen de pirateneilanden was, is kkm hier een route tussen de vier eilanden.
-
 Je begint in een starttoestand. De eerste worp eindigt in kop, dus er moet vanuit deze toestand een "kop-boot" vertrekken naar een nieuwe toestand. Je hebt nu de eerste transitie. De volgende worp is weer kop, dus vanuit deze toestand vertrekt weer een "kop-boot", naar een nieuwe toestand of terug naar de start-toestand. Vanuit daar moet een "munt-boot" vertrekken, want dat is de volgende worp, etc. Er is één manier waarop je de transities kunt verdelen dat de resultaten van Marie een valide route vormen.
 </details>
 
@@ -135,18 +142,6 @@ Dit is dus dezelfde vraag die *H* intern stelt: *H* voert machines uit op hun ei
 
 Daar gaat iets fout! Deze situatie spreekt zichzelf tegen. Gelukkig hebben we aan het begin een aanname gedaan en nu blijkt dat dat lijdt tot een paradox. We moeten dus concluderen dat deze machine *H* niet kan bestaan! Computers kunnen dus niet bepalen of een programma in een oneindige loop zit, of dat het programma toch nog uit zichzelf zal stoppen.
 
-## Eindopdracht
+---
 
-Teken een automaat die beschrijft hoe jullie systeem werkt. In welke toestanden kan het systeem zijn? Welke acties kunnen gebruikers nemen? Welke acties gebeuren automatisch, bijvoorbeeld met een timer? In welke staten zijn die acties geldig? En naar welke staat ga je als zo'n actie is uitgevoerd?
-
-Probeer het systeem zo precies mogelijk te beschrijven. Dat is belangrijker dan dat je het hele systeem volledig uitwerkt: beperk je eerst tot de basislaag (bijvoorbeeld de verschillende menu's en functies van je rekenmachine of combimagnetron). Zorg ervoor dat er in jullie automaat geen acties mogelijk zijn die eigenlijk niet kunnen. Als de koffieautomaat alleen voor €2 koffie geeft, maak dan niet een automaat waar je je eigen prijs kunt bepalen.
-
-![Twee automaten die een koffiemachine tonen. De eerste heeft 4 staten: Start, €1, €2 en Koffie maken. Er zijn transities van Start naar €1 (€1 inworp), van €1 naar €2 (€1 inworp), van €2 naar Koffie maken (Klik op koffie) en van Koffie maken terug naar Start (Koffie klaar). De tweede automaat heeft slechts twee staten: Start en Koffie maken. Er zijn transities van Start naar Start met als label €1 inworp, Start naar Koffie maken (Klik op koffie) en van Koffie maken naar Start (Koffie klaar).](assets/koffieautomaten.drawio.png)
-
-Als je de basis hebt staan, kun je die verder uitbreiden door meer onderdelen van het systeem in detail te beschrijven. Als het systeem te groot is, kun je de automaat opdelen in verschillende stukken die verschillende processen of ingewikkelde stappen in een proces beschrijven. In elk onderdeel overlapt dan een begintoestand met een toestand uit een ander deel.
-
-Maak een Visio-tekening aan in de Werkplaats om je diagram te tekenen. Zie de Werkplaatshandleiding (in de Werkplaats) voor tips bij het tekenen van een automaat.
-
-Naast een duidelijke tekening van de automaat geef je ook een tekstuele beschrijving die de lezer door de verschillende delen van de automaat loodst en de processen beschrijft. Leg uit welke keuzes je hebt gemaakt bij het maken van de automaat, welke aspecten je hebt versimpeld en welke delen je hebt weggelaten.
-
-Zie [de rubric bij de eindopdracht](eindopdracht.md#logisch) om te zien hoe dit onderdeel beoordeeld wordt.
+Volg je het nog? Geen zorgen, [voor de eindopdracht heb je geen Turingmachines nodig, maar ga je je eigen automaat tekenen](eindopdracht.md#logisch).

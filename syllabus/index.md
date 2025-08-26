@@ -10,12 +10,12 @@ Welkom bij de Basis van Computer Science! In deze module duiken we in de basispr
 Wat ga je leren? Aan het eind van deze module kun je ...
 
 - de structuur en werking van een (computer)systeem uitleggen op drie niveaus van abstractie: fysiek, logisch en toepassingen.
-- automaten gebruiken om de logische werking van een systeem weer te geven.
 - de gebruikersinterface van een systeem evalueren aan de hand van vuistregels van goed ontwerp.
+- automaten gebruiken om de logische werking van een systeem weer te geven.
 
-Zoals gebruikelijk bestaat de module uit een aantal fysieke bijeenkomsten en een aantal lessen op afstand. In de fysieke bijeenkomsten gaan we samen aan de slag met een bepaald perspectief op de computer: de fysieke hardware, de logische werking en de toepassingen en gebruikersinterface. In de lessen op afstand passen jullie die kennis toe op een systeem naar keuze. Het verslag dat je daarover schrijft, is ook meteen de {doc}`eindopdracht` die je inlevert in je portfolio aan het eind van de module.
+Zoals gebruikelijk bestaat de module uit een aantal fysieke bijeenkomsten en een aantal lessen op afstand. In de bijeenkomsten gaan we samen aan de slag met een bepaald perspectief op de computer: de fysieke hardware, de logische werking en de toepassingen en gebruikersinterface. Daarbij krijg je ook meteen de gelegenheid om die kennis toe te passen op een zelfgekozen systeem. Het verslag dat je daarover schrijft, is ook meteen de {doc}`eindopdracht` die je inlevert in je portfolio aan het eind van de module. In de {doc}`planning` kun je vinden wanneer ieder onderdeel aan bod komt.
 
-Over inleveren gesproken, hier zijn enkele belangrijke data wat dat betreft:
+Over inleveren en planning gesproken, hier zijn enkele belangrijke data wat dat betreft:
 
 - Eerste inlevermoment voor de eindopdracht: **{{ eerste_inlevermoment }}**
 - Tweede inlevermoment voor de eindopdracht: **{{ tweede_inlevermoment }}**

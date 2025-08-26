@@ -1,6 +1,26 @@
 # De toepassingen
 
-We hebben gezien hoe computers en andere systemen zijn opgebouwd uit onderdelen, hoe die onderdelen samenwerken om het systeem bepaalde functionaliteit te geven (en hoe je dat met een automaat kunt beschrijven). Dat is allemaal leuk en aardig, maar uiteindelijk gaat het natuurlijk om de toepassing: het systeem is ergens voor, het heeft een doel. Het is dus belangrijk dat een systeem in staat is om te doen waar het voor bedoeld is, maar dat is niet het enige: een koffiezetapparaat dat goede koffie kan zetten, maar waarvan niemand weet hoe het werkt, is ook niet heel nuttig. Dat is de kern van *usability*: een systeem moet bruikbaar zijn om nuttig te zijn.
+We hebben gezien hoe computers en andere systemen zijn opgebouwd uit onderdelen, maar een computer is natuurlijk meer dan dat bouwpakket: wel willen er ook iets mee doen! Uiteindelijk gaat het natuurlijk om de toepassing: het systeem is ergens voor, het heeft een doel. Het is dus belangrijk dat een systeem in staat is om te doen waar het voor bedoeld is, maar dat is niet het enige: een koffiezetapparaat dat goede koffie kan zetten, maar waarvan niemand weet hoe het werkt, is ook niet heel nuttig. Dat is de kern van *usability*: een systeem moet bruikbaar zijn om nuttig te zijn.
+
+## User stories
+
+Mensen gebruiken een systeem met een bepaald doel: ze gebruiken een apparaat om iets te bereiken. Om overzichtelijk op te schrijven *wie* *wat* met een systeem wil doen om een *doel* te bereiken is er de *user story*. De user story heeft een vaste structuur met drie regels:
+
+**Als** informaticadocent
+**wil ik** in een Teamsmeeting mijn scherm delen,
+**zodat ik** een presentatie aan de leerlingen kan laten zien.
+
+**Als** leerling bij de Q-highschool
+**wil ik** in de appsite zien welke modules ik nog moet volgen,
+**zodat ik** mijn examen haal.
+
+In het algemeen is het formaat dus:
+
+**Als** *gebruiker van het systeem*
+**wil ik** *iets doen met het systeem*,
+**zodat ik** *een bepaald doel bereik*.
+
+Door user stories te schrijven voor iedere gebruiker van je systeem kun je duidelijk op een rij zetten welke functies allemaal in een systeem aanwezig moeten zijn.
 
 ## Tien vuistregels van goed design
 
@@ -81,18 +101,28 @@ Het is natuurlijk het beste als je systeem geen uitleg nodig heeft, maar toch is
 
 Maak een korte presentatie (max 5 min) over één van de vuistregels hierboven, met goede en slechte voorbeelden.
 
-Je krijgt van je docent één van de vuistregels toegewezen. Verwerk in je presentatie deze vier onderdelen en beantwoord de vragen:
+Je krijgt van je docent één van de vuistregels toegewezen. Verwerk in je presentatie deze drie onderdelen en beantwoord de vragen:
 
 - Leg aan je klasgenoten uit wat de vuistregel inhoudt. Lees daarvoor de uitleg hierboven en bekijk ook de uitgebreidere uitleg in [het originele artikel (EN)](https://www.nngroup.com/articles/ten-usability-heuristics/).
 - Voorbeelden van systemen, apparaten, programma's, apps of websites waar de vuistregel goed wordt nageleefd. Zijn deze hierdoor makkelijker te gebruiken?
 - Voorbeelden waar de vuistregel niet wordt nageleefd. Zijn deze moeilijker te gebruiken? Hoe zouden jullie dit voorbeeld verbeteren?
-- Wordt deze vuistregel in jullie systeem (of systemen) goed toegepast?
+
 :::
 
-## Eindopdracht
+## Usability testing
 
-Beschrijf de gebruikersinterface van jullie systeem en evalueer de usability aan de hand van de 10 vuistregels voor goed design. Welke vuistregels worden goed toegepast in dit systeem en welke niet? Welke afwegingen zijn daarbij gemaakt?
+De vuistregels helpen om een systeem te bouwen dat waarschijnlijk makkelijk te gebruiken, maar om er zeker van te zijn dat gebruikers ook daadwerkelijk hun doel kunnen bereiken met het systeem, is het natuurlijk het beste om dat met echte gebruikers uit te testen. Dat is een *usability test*: we geven een testgebruiker ons systeem en een opdracht en kijken waar ze tegenaan lopen bij het uitvoeren van die opdracht.
 
-Waarschijnlijk is het systeem niet perfect. Hoe zouden jullie het systeem verbeteren? Maak een schets van jullie verbeteringen en leg uit waarom jullie versie een betere usability heeft. Test eventueel jullie verbetering met een testgebruiker. Voor zo'n test kun je een papieren prototype gebruiken, op basis van de schets. Bekijk [deze video](https://www.youtube.com/watch?v=yafaGNFu8Eg) voor een voorbeeld van een test met een papieren prototype. Beschrijf de resultaten: waar liep de testgebruiker tegenaan? Is het door jullie wijzigingen beter geworden, of juist slechter?
+Het is natuurlijk heel vervelend om een uitgebreid systeem te bouwen om er dan bij een test achter te komen dat het helemaal niet goed werkt. Daarom wordt voor usability tests vaak een papieren prototype gebruikt: een op papier getekende versie die snel gemaakt en snel aangepast kan worden.
 
-Zie [de rubric bij de eindopdracht](eindopdracht.md#toepassingen) om te zien hoe dit onderdeel beoordeeld wordt.
+Een papieren prototype met meerdere schermen maak je met meerdere vellen papier. Als je gebruiker ergens op klikt, vervang je het vel dat voor ze ligt door een nieuwe met de pagina waar ze naartoe zijn gegaan. Zie bijvoorbeeld deze video voor een bloedtest automaat:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_g4GGtJ8NCY?si=KxHEl6PqPFeZagiU&amp;start=48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Je kunt ook alleen bepaalde elementen op het scherm veranderen door kleinere stukjes papier te gebruiken. Zie deze test van een smartphoneapp als voorbeeld:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yafaGNFu8Eg?si=LtmRI5d0PeplxPc6&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+Zin om dit op je eigen systeem toe te passen? [Klik hier voor dit onderdeel in de eindopdracht.](eindopdracht.md#toepassingen)
