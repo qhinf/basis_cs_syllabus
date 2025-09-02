@@ -6,6 +6,8 @@ Je maakt deze opdracht in tweetallen, die we vormen aan het einde van de eerste 
 
 Het is bij deze opdracht belangrijk dat je je bronnen vermeldt. De bronnen waar je je informatie vandaan hebt gehaald vermeld je in een bijlage bij je verslag. Welke webpagina's heb je gelezen? Welke video's heb je bekeken? Welke personen heb je geïnterviewd? Zorg dat deze allemaal terug te vinden zijn in je bronnenlijst! Dat betekent overigens niet dat je uit deze bronnen mag kopiëren, dat zou plagiaat zijn. Pleeg geen plagiaat! Dus kopieer geen teksten van internet, steel geen plaatjes met copyright, etc. Je mag alleen origineel, eigen werk inleveren.
 
+Dat geldt overigens ook voor generatieve AI (zoals ChatGPT). Je mag voor deze opdracht geen teksten laten genereren die je in je verslag zet. Je mag dat soort tools wel gebruiken om iets op te zoeken (maar controleer wel of het antwoord ergens op slaat!) of bijvoorbeeld om feedback op je verslag te krijgen. Vermeld zoals altijd je bronnen, bijvoorbeeld door een link naar je gesprek te delen.
+
 Wat betreft het inleveren: zorg dat jullie beider namen op de eerste pagina van het verslag vermeld zijn. Iedereen levert het verslag zelf in, dus van elk tweetal krijg ik twee keer hetzelfde verslag (dat is zodat het voor de administratie duidelijk is waar je het cijfer voor hebt gekregen). Inleveren doe je zoals altijd op [app.q-highschool.nl](https://app.q-highschool.nl).
 
 De deadline voor het inleveren is {{ eerste_inlevermoment }}. Als je meer tijd nodig hebt, dan kun je ervoor kiezen van het tweede inlevermoment gebruik te maken. Laat het voor {{ tweede_inlevermoment_melden }} weten aan je docent ({{ docent }}, {{ docent_email }}) als je dat wilt. Het tweede inlevermoment is op {{ tweede_inlevermoment }}.
@@ -89,21 +91,19 @@ Als je het apparaat hebt dat je wilt onderzoeken en je kunt het uit elkaar halen
   - Alleen opvallende onderdelen genoemd, maar genoeg voor een redelijk idee van de werking
   - Slechts een paar onderdelen genoemd
 
-* - Indeling in sensoren, actuatoren, besturing
+* - Correcte indeling in sensoren, actuatoren, besturing
+  - Alle onderdelen zijn correct verdeeld in de drie categorieën, met een onderbouwing
   - Alle onderdelen zijn correct verdeeld in de drie categorieën
-
   - De meeste onderdelen zijn correct ingedeeld
-
-  - 
   - De indeling van onderdelen is incorrect
 
-* - Beschrijving van onderdelen
+* - Duidelijke beschrijving van onderdelen
   - Duidelijke en correcte beschrijving van de functie en locatie van ieder onderdeel, inclusief afbeeldingen
+  - De beschrijving van onderdelen is correct, maar niet altijd met de functie, locatie en een afbeelding
   - Van enkele onderdelen is de beschrijving incorrect of te summier
-  - 
   - Voor de meeste onderdelen is de beschrijving incorrect of te summier
 
-* - Verbindingen en communicatie
+* - Duidelijke beschrijving van verbindingen en communicatie
   - Duidelijke beschrijving van communicatie tussen belangrijke onderdelen, inclusief signalen of protocollen
   - Duidelijk beschreven welke belangrijke onderdelen met elkaar communiceren
   - Alleen globale beschrijving van communicatie tussen onderdelen
@@ -113,10 +113,10 @@ Als je het apparaat hebt dat je wilt onderzoeken en je kunt het uit elkaar halen
 
 ### Toepassingen
 
-Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user stories, vuistregels en papieren prototypes. Nu ga je  dit toepassen op jullie eigen systeem:
+Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user stories, vuistregels en papieren prototypes. Nu ga je dit toepassen op jullie eigen systeem:
 
 1. Beschrijf de belangrijkste user stories voor jullie systeem. Wie zijn de gebruikers? Wat willen ze bereiken?
-2. Kies één van de user stories en ga na welke vuistregels beter toegepast kunnen worden in jullie systeem, zodat het makkelijker te gebruiken is.
+2. Kies één van de user stories en ga na welke drie vuistregels beter toegepast kunnen worden in jullie systeem, zodat het makkelijker te gebruiken is. Leg uit waarom je deze vuistregels kiest en waarom die relevant zijn voor deze user story. 
 3. Maak een papieren prototype van jullie systeem, waarmee deze user story uitvoerbaar is. Pas twee verbeteringen toe in jullie papieren prototype, op basis van de vuistregels.
 
 :::{list-table}
@@ -129,16 +129,42 @@ Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user sto
   - Voldoende (7)
   - Matig (5)
   - Onvoldoende (3)
-* - *Een rubric volgt nog*
-  -
-  -
-  -
-  -
+
+* - Duidelijke user stories
+  - Meerdere concrete user stories voor verschillende gebruikers, in het standaardformaat
+  - Een concrete, uitvoerbare, user story, in het standaardformaat
+  - User stories zijn niet concreet uitvoerbaar, of niet in standaardformaat
+  - Er is een vage beschrijving, maar de gebruiker, het wat of de reden ontbreken
+
+* - Goede keuze van vuistregels
+  - Onderbouwde keuze van minstens drie vuistregels die relevant zijn voor de gekozen user story en beter toegepast kunnen worden
+  - Onderbouwde keuze van minstens drie vuistregels die beter toegepast kunnen worden
+  - Keuze van minstens twee vuistregels die beter toegepast kunnen worden
+  - Slechts een enkele vuistregel of gekozen vuistregels zijn al sterke punten in het ontwerp
+
+* - Goede toepassing van vuistregels
+  - 
+  - 
+  - 
+  - 
+
+* - Volledigheid van het prototype
+  - 
+  - 
+  - 
+  - 
+
+* - Verbeteringen in het prototype
+  - 
+  - 
+  - 
+  - 
+
 :::
 
 ### Logisch
 
-Teken een automaat die beschrijft hoe jullie systeem werkt, op basis van de user story die je ook bij het vorige onderdeel hebt gebruikt. In welke toestanden kan het systeem zijn? (Denk aan de verschillende tekeningen die je in je papieren prototype hebt!) Welke acties kunnen gebruikers nemen? Welke acties gebeuren automatisch, bijvoorbeeld met een timer? In welke staten zijn die acties geldig? En naar welke staat ga je als zo'n actie is uitgevoerd?
+Teken een automaat die beschrijft hoe jullie systeem werkt, op basis van de user story die je ook bij het vorige onderdeel hebt gebruikt. In welke toestanden kan het systeem zijn? (Denk aan de verschillende tekeningen die je in je papieren prototype hebt gemaakt!) Welke acties kunnen gebruikers nemen? Welke acties gebeuren automatisch, bijvoorbeeld met een timer? In welke staten zijn die acties geldig? En naar welke staat ga je als zo'n actie is uitgevoerd?
 
 Probeer het systeem [zo precies mogelijk](logisch.md#wees-precies) te beschrijven, maar beperk je tot de onderdelen die nodig zijn om de user story uit te voeren. Als het systeem te groot is, kun je de automaat opdelen in verschillende stukken die verschillende processen of ingewikkelde stappen in een proces beschrijven. In elk onderdeel overlapt dan een begintoestand met een toestand uit een ander deel.
 
@@ -156,11 +182,31 @@ Naast een duidelijke tekening van de automaat geef je ook een tekstuele beschrij
   - Voldoende (7)
   - Matig (5)
   - Onvoldoende (3)
-* - *Een rubric volgt nog*
-  -
-  -
-  -
-  -
+
+* - Alle toestanden aanwezig
+  - Alle relevante toestanden voor de user story zijn aanwezig en gemaakte keuzes voor het samenvoegen van toestanden worden uitgelegd
+  - Alle relevante toestanden voor de user story zijn aanwezig en er zitten geen toestanden in de automaat die niet in het systeem bestaan
+  - De belangrijkste toestanden voor de user story zijn aanwezig
+  - Meerdere voor de user story belangrijke toestanden ontbreken
+
+* - Volledigheid en precisie van transities
+  - Alle mogelijke transities (acties van gebruikers en automatische transities) zijn in de automaat weergegeven, en er zijn geen transities in de automaat die in het systeem niet mogelijk zijn
+  - Alle belangrijke transities zijn in de automaat weergegeven, en er zijn geen transities in de automaat die in het systeem niet mogelijk zijn
+  - De meeste belangrijke transities zijn in de automaat weergegeven
+  - Meerdere voor de user story belangrijke transities ontbreken
+
+* - Overzichtelijk automaat
+  - De automaat is overzichtelijk en makkelijk te lezen, bijvoorbeeld door logisch gegroepeerde toestanden; de automaat is opgesplitst in onderdelen als dat nodig is
+  - 
+  - 
+  - 
+
+* - Duidelijke beschrijving
+  - De beschrijving legt uit hoe de automaat in elkaar zit, hoe de verschillende toestanden er in de praktijk uitzien en hoe de transities plaatsvinden
+  - 
+  - 
+  - 
+
 :::
 
 ## Beoordeling
@@ -181,26 +227,31 @@ Per rubric wordt een cijfer berekend als het gemiddelde van alle onderdelen in d
   - Voldoende (7)
   - Matig (5)
   - Onvoldoende (3)
+
 * - Algemene beschrijving
   - De beschrijving geeft een helder beeld van het systeem en waar het voor gebruikt wordt. Er is goed gebruik gemaakt van afbeeldingen om dit te verduidelijken.
   - De beschrijving geeft een helder beeld van het systeem.
   - De beschrijving is een beetje vaag, maar klopt wel.
   - De beschrijving slaat de plank volledig mis: is incorrect of benoemt alleen irrelevante aspecten.
+
 * - Conclusie
-  - De conclusie getuigt van goed inzicht in de verbanden tussen de niveaus en wordt ondersteund met minimaal 2 concrete voorbeelden.
-  - De conclusie bevat minimaal 2 concrete voorbeelden van de verbanden tussen niveaus, maar de conclusie blijft vaag.
-  - Er is een conclusie getrokken op basis van 1 voorbeeld.
-  - Er is een conclusie, maar er worden geen voorbeelden gegeven.
+  - De conclusie getuigt van goed inzicht in de verbanden tussen de niveaus en wordt ondersteund met minimaal 2 concrete voorbeelden
+  - De conclusie bevat minimaal 2 concrete voorbeelden van de verbanden tussen niveaus, maar de conclusie blijft vaag
+  - Er is een conclusie getrokken op basis van 1 voorbeeld
+  - Er is een conclusie, maar er worden geen voorbeelden gegeven
+
 * - Nawoord
-  - Nawoord is aanwezig en de werkverdeling is helder.
+  - Nawoord is aanwezig en de werkverdeling is helder
   - 
-  - Nawoord is aanwezig, maar de werkverdeling is onduidelijk of ontbreekt.
+  - Nawoord is aanwezig, maar de werkverdeling is onduidelijk of ontbreekt
   - 
+
 * - Verzorging
-  - Het verslag zit netjes in elkaar en bestaat uit grammaticaal correcte, lopende zinnen.
-  - Het verslag is redelijk netjes.
-  - Het verslag is te volgen, maar geeft geen verzorgde indruk.
-  - Het verslag is niet te volgen of veel zinnen bevatten spelfouten of grammaticale fouten.
+  - Het verslag zit netjes in elkaar en bestaat uit grammaticaal correcte, lopende zinnen
+  - Het verslag is redelijk netjes
+  - Het verslag is te volgen, maar geeft geen verzorgde indruk
+  - Het verslag is niet te volgen of veel zinnen bevatten spelfouten of grammaticale fouten
+
 * - Brongebruik en vermelding
   - Relevante bronnen gebruikt (teardowns, handleidingen, datasheets, experts) en alle bronnen correct vermeld
   - Meeste bronnen genoemd, maar niet altijd duidelijk vermeld *of* onbetrouwbare bronnen gebruikt
