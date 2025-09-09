@@ -4,6 +4,10 @@ Q-highschool / Basis van Computer Science / Bijeenkomst 2
 
 ***
 
+![](assets/lagen.svg)
+
+***
+
 ## De opdracht: computer ontleden
 
 <!-- .element: style="font-size: 1.3em" -->
@@ -41,7 +45,7 @@ Van ieder groepje:
 16:30 moet de computer weer in elkaar zitten
 
 Hele opdracht:\
-[informatica.q-highschool.nl/basis_cs/2425-4/fysiek.html](https://informatica.q-highschool.nl/basis_cs/2425-4/fysiek.html) 
+[*De fysieke laag* in de syllabus](../fysiek.html) 
 
 <!-- .element: style="font-size: .8em" -->
 
@@ -53,16 +57,29 @@ Deel 1: Beschrijf de fysieke opbouw van het *systeem dat jullie hebben gekozen*
 
 Voorbeelden van systemen:
 
-- Stoplichten op een kruispunt
-- TI-84 grafische rekenmachine
-- Huishoudelijke apparaten met meerdere instellingen, zoals een (combi-)magnetron, wasmachine, inductiekookplaat
 - Verkoopautomaat voor koekjes of koffie
-- IBM's quantum processor
+- Een Bluetooth speaker of koptelefoon
+- Complexere huishoudelijke apparaten met meerdere instellingen, zoals een (combi-)magnetron of wasmachine
+- Tablet, telefoon, handheld spelcomputer of e-reader
+
+---
+
+### Planning
+
+<dl>
+<dt>Voor volgende week</dt>
+  <dd>samenwerking vinden<kdd>
+<dt>Volgende week</dt>
+  <dd>idee voor systeem bespreken</dd>
+<dt>In week 4</dt>
+  <dd>gekozen systeem meenemen (als dat kan)</dd>
+</dl>
 
 ---
 
 ### Volgende week
 
-Online
+Online\
+<small>met <i>werkende microfoon en camera!</i></small>
 
-Start met de eindopdracht
+De toepassingen: use cases en usability
