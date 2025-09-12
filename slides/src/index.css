@@ -60,3 +60,17 @@ ul.mc.grid li {
     cells without messing up the list-item layout */
     list-style-position: inside;
 }
+
+.reveal section.full-height {
+    top: 0;
+    height: 100%;
+    display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: var(--r-block-margin);
+}
+
+.reveal section.full-height > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}

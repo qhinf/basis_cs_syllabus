@@ -101,11 +101,11 @@ Het is natuurlijk het beste als je systeem geen uitleg nodig heeft, maar toch is
 
 Maak een korte presentatie (max 5 min) over één van de vuistregels hierboven, met goede en slechte voorbeelden.
 
-Je krijgt van je docent één van de vuistregels toegewezen. Verwerk in je presentatie deze drie onderdelen en beantwoord de vragen:
+Kies één van de vuistregels door jullie namen op de titelslide in de PowerPoint in de Werkplaats te zetten. Verwerk in je presentatie deze drie onderdelen en beantwoord de vragen:
 
 - Leg aan je klasgenoten uit wat de vuistregel inhoudt. Lees daarvoor de uitleg hierboven en bekijk ook de uitgebreidere uitleg in [het originele artikel (EN)](https://www.nngroup.com/articles/ten-usability-heuristics/).
-- Voorbeelden van systemen, apparaten, programma's, apps of websites waar de vuistregel goed wordt nageleefd. Zijn deze hierdoor makkelijker te gebruiken?
-- Voorbeelden waar de vuistregel niet wordt nageleefd. Zijn deze moeilijker te gebruiken? Hoe zouden jullie dit voorbeeld verbeteren?
+- Geef voorbeelden van systemen, apparaten, programma's, apps of websites waar de vuistregel goed wordt nageleefd. Zijn deze hierdoor makkelijker te gebruiken?
+- Geef voorbeelden waar de vuistregel niet wordt nageleefd. Zijn deze moeilijker te gebruiken? Hoe zouden jullie dit voorbeeld verbeteren?
 
 :::
 
