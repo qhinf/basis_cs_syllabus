@@ -1,6 +1,6 @@
 # De logische laag
 
-Q-highschool / Basis van Computer Science / Bijeenkomst 5
+Q-highschool / Basis van Computer Science / Bijeenkomst 7
 
 ***
 
@@ -8,7 +8,7 @@ Q-highschool / Basis van Computer Science / Bijeenkomst 5
 
 ---
 
-![](assets/bijeenkomst_4/koffieautomaat.png)
+![](assets/bijeenkomst_6/koffieautomaat.png)
 
 Hoe noemen we de cirkels in deze automaat?
 
@@ -21,7 +21,7 @@ Hoe noemen we de cirkels in deze automaat?
 
 ---
 
-![](assets/bijeenkomst_4/koffieautomaat.png)
+![](assets/bijeenkomst_6/koffieautomaat.png)
 
 Hoe noemen we de pijlen in deze automaat?
 
@@ -34,7 +34,7 @@ Hoe noemen we de pijlen in deze automaat?
 
 ---
 
-![](assets/bijeenkomst_5/apparaat_deur.svg)
+![](assets/bijeenkomst_7/apparaat_deur.svg)
 
 Het apparaat is bezig en je wilt de deur openen. Wat doe je?
 
@@ -47,7 +47,7 @@ Het apparaat is bezig en je wilt de deur openen. Wat doe je?
 
 ---
 
-![](assets/bijeenkomst_5/apparaat_deur.svg)
+![](assets/bijeenkomst_7/apparaat_deur.svg)
 
 Kun je dit apparaat starten met de deur open?
 
@@ -60,25 +60,25 @@ Kun je dit apparaat starten met de deur open?
 
 ## Het Floerp en Mun apparaat
 
-![](assets/bijeenkomst_4/floerpmun.png)
+![](assets/bijeenkomst_6/floerpmun.png)
 
 <!-- .element: class="r-stretch" -->
 
 ---
 
-![](assets/bijeenkomst_5/mini_floerpmun.png)
+![](assets/bijeenkomst_7/mini_floerpmun.png)
 
 <!-- .element: class="r-stretch" -->
 
 ---
 
-![](assets/bijeenkomst_5/floerpmun_onhaalbaar.png)
+![](assets/bijeenkomst_7/floerpmun_onhaalbaar.png)
 
 <!-- .element: class="r-stretch" -->
 
 ---
 
-![](assets/bijeenkomst_5/floerpmun_onvolledig.png)
+![](assets/bijeenkomst_7/floerpmun_onvolledig.png)
 
 <!-- .element: class="r-stretch" -->
 
