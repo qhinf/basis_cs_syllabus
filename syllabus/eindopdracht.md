@@ -119,6 +119,8 @@ Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user sto
 2. Kies één van de user stories en ga na welke drie vuistregels beter toegepast kunnen worden in jullie systeem, zodat het makkelijker te gebruiken is. Leg uit waarom je deze vuistregels kiest en waarom die relevant zijn voor deze user story. 
 3. Maak een papieren prototype van jullie systeem, waarmee deze user story uitvoerbaar is. Pas minstens twee verbeteringen toe in jullie papieren prototype, op basis van de vuistregels. Leg uit hoe je denkt dat jullie veranderingen de usability verbeteren.
 
+Maak een video waarin je het prototype doorloopt of maak een duidelijke beschrijving met foto's van de verschillende stappen om in je verslag op te nemen. (Andere vormen zijn natuurlijk ook toegestaan!)
+
 :::{list-table}
 :header-rows: 1
 :stub-columns: 1
