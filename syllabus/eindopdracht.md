@@ -117,7 +117,7 @@ Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user sto
 
 1. Beschrijf de belangrijkste user stories voor jullie systeem. Wie zijn de gebruikers? Wat willen ze bereiken?
 2. Kies één van de user stories en ga na welke drie vuistregels beter toegepast kunnen worden in jullie systeem, zodat het makkelijker te gebruiken is. Leg uit waarom je deze vuistregels kiest en waarom die relevant zijn voor deze user story. 
-3. Maak een papieren prototype van jullie systeem, waarmee deze user story uitvoerbaar is. Pas twee verbeteringen toe in jullie papieren prototype, op basis van de vuistregels.
+3. Maak een papieren prototype van jullie systeem, waarmee deze user story uitvoerbaar is. Pas minstens twee verbeteringen toe in jullie papieren prototype, op basis van de vuistregels. Leg uit hoe je denkt dat jullie veranderingen de usability verbeteren.
 
 :::{list-table}
 :header-rows: 1
@@ -142,23 +142,17 @@ Bij de [toepassingen](toepassingen.md) hebben we drie dingen besproken: user sto
   - Keuze van minstens twee vuistregels die beter toegepast kunnen worden
   - Slechts een enkele vuistregel of gekozen vuistregels zijn al sterke punten in het ontwerp
 
-* - Goede toepassing van vuistregels
-  - 
-  - 
-  - 
-  - 
-
 * - Volledigheid van het prototype
-  - 
-  - 
-  - 
-  - 
+  - Alle stappen om de gekozen user story uit te voeren zijn in een logische flow door het prototype te doorlopen, inclusief alternatieve manieren om het doel te bereiken
+  - Belangrijkste flow voor de user story is aanwezig, er ontbreken hooguit enkele detailstappen
+  - Belangrijke delen van de flow zijn aanwezig, maar de user story is niet volledig uitvoerbaar
+  - Slechts een enkel scherm is uitgewerkt, waardoor de user story niet uitvoerbaar is
 
 * - Verbeteringen in het prototype
-  - 
-  - 
-  - 
-  - 
+  - Minstens twee verbeteringen op basis van de gekozen vuistregels zijn toegepast in het prototype; de verwachte verbetering in usability is goed onderbouwd, inclusief niet gekozen alternatieven
+  - Minstens twee verbeteringen op basis van de gekozen vuistregels zijn toegepast in het prototype, voorzien van een korte uitleg
+  - Meerdere verbeteringen zijn toegepast in het prototype, maar de link naar de vuistregels is niet voor beide duidelijk
+  - Slechts een verbetering is toegepast, of de link naar de vuistregels is voor beide verbeteringen niet duidelijk
 
 :::
 

@@ -99,6 +99,9 @@ Als je een nieuw systeem ontwerpt, dan wil je natuurlijk zo snel mogelijk testen
 
 <iframe width="960" height="540" src="https://www.youtube-nocookie.com/embed/yafaGNFu8Eg?si=LtmRI5d0PeplxPc6&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+Notes:
+Alternatief voor papier: met PowerPoint en animaties kun je ook best iets maken. Professionele tools zijn Figma en Penpot, maar zou ik hiervoor niet aan beginnen als je daar niet mee bekend bent.
+
 ***
 
 <!-- .slide: style="text-align: ;" -->
