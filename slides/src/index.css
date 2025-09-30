@@ -74,3 +74,8 @@ ul.mc.grid li {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.columns {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
