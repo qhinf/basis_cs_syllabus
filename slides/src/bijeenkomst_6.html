@@ -90,9 +90,12 @@
                 </section>
                 <section>
                     <h3>Aan de slag</h3>
-                    <a class="r-stretch" href="https://informatica.q-highschool.nl/basis_cs/2425-4/logisch.html">
+                    <a class="r-stretch" href="../logisch.html#logisch-exercise-3">
                         <img src="assets/bijeenkomst_6/floerpmun.png" alt="">
                     </a>
+                    <aside class="notes">
+                        Eerste stapjes modelleren: twee toestanden en een transitie, tekenen in Visio
+                    </aside>
                 </section>
             </section>
             <section>
@@ -156,7 +159,12 @@
                     <h3>Halting problem: stoppen of wachten?</h3>
                     <aside class="notes">
                         <ul>
-                            <li>We hebben een Turing machine waarvan we willen weten of die ooit stopt. (M)</li>
+                            <li>
+                                We hebben een Turing machine waarvan we willen weten of die ooit stopt. (M)
+                                <ul>
+                                    <li>Heeft een input nodig: definitie van M uitgeschreven; alsof je de code van Kladblok in Kladblok opent</li>
+                                </ul>
+                            </li>
                             <li>
                                 Stel dat we een Turing machine hebben die dat kan bepalen. (H)
                                 <ul>
@@ -177,17 +185,26 @@
                 </section>
             </section>
             <section>
-                <h2>Volgende week</h2>
-                <ul>
-                    <li>Online</li>
-                    <li>
-                        Aan de slag met de eindopdracht:
-                        <ul>
-                            <li>De fysieke onderdelen van jullie systeem</li>
-                            <li>De logica van jullie systeem: teken een automaat!</li>
-                        </ul>
-                    </li>
-                </ul>
+                <section>
+                    <h2>Volgende bijeenkomst</h2>
+                    <ul>
+                        <li>Online</li>
+                        <li>
+                            Aan de slag met de eindopdracht:
+                            <ul>
+                                <li>De logica van jullie systeem: teken een automaat!</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Eindopdracht</h2>
+                    <p>Eerste inlevermoment:<br/>{{ eerste_inlevermoment }}</p>
+                    <p>
+                        Tweede inlevermoment:<br/>{{ tweede_inlevermoment }}<br/>
+                        <small>Laat het weten voor {{ tweede_inlevermoment_melden }}</small>
+                    </p>
+                </section>
             </section>
         </div>
     </div>
