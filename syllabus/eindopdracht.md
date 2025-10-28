@@ -193,15 +193,15 @@ Naast een duidelijke tekening van de automaat geef je ook een tekstuele beschrij
 
 * - Overzichtelijk automaat
   - De automaat is overzichtelijk en makkelijk te lezen, bijvoorbeeld door logisch gegroepeerde toestanden; de automaat is opgesplitst in onderdelen als dat nodig is
-  - 
-  - 
-  - 
+  - Er is verbetering mogelijk in de structuur, maar de automaat is wel te begrijpen
+  - De automaat is chaotisch, maar wel volledig
+  - De automaat is niet te volgen, bijvoorbeeld door ontbrekende labels bij toestanden of transities
 
 * - Duidelijke beschrijving
-  - De beschrijving legt uit hoe de automaat in elkaar zit, hoe de verschillende toestanden er in de praktijk uitzien en hoe de transities plaatsvinden
-  - 
-  - 
-  - 
+  - De beschrijving legt uit hoe de automaat in elkaar zit, hoe de verschillende toestanden er in de praktijk (of in het prototype) uitzien en hoe de transities plaatsvinden
+  - De beschrijving legt de automaat uit, maar gaat daarbij soms wat kort door de bocht
+  - De beschrijving is correct, maar te beknopt
+  - De beschrijving helpt niet bij het begrijpen van de automaat
 
 :::
 
