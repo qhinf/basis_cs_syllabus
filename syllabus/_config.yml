@@ -53,10 +53,10 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      eerste_inlevermoment: "donderdag 30 oktober, 16:00"
-      tweede_inlevermoment_melden: "donderdag 9 oktober, 16:00"
-      tweede_inlevermoment: "donderdag 27 november, 16:00"
-      docent: "Arthur Rump"
-      docent_email: "a punt rump apenstaartje quadraam punt nl"
+      eerste_inlevermoment: "donderdag 15 januari, 16:00"
+      tweede_inlevermoment_melden: "maandag 5 januari, 16:00"
+      tweede_inlevermoment: "dinsdag 3 februari, 16:00"
+      docent: "Allart van den Berg"
+      docent_email: "a punt vandenberg apenstaartje candea punt nl"
 # html, repository en launch_buttons instellingen worden globaal voor alle
 # syllabi afgehandeld.
