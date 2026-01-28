@@ -42,7 +42,7 @@ Van ieder groepje:
 - 1 persoon loopt mee om een computer op te halen
 - 1 persoon maakt een Word bestand aan en deelt dat
 
-16:30 moet de computer weer in elkaar zitten
+15:45 moet de computer weer in elkaar zitten
 
 Hele opdracht:\
 [*De fysieke laag* in de syllabus](../fysiek.html) 
