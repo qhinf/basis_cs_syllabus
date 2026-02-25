@@ -7,18 +7,18 @@
     "dependencies": {
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "reveal.js": "^5.1.0",
-        "tldreveal": "^1.0.0"
+        "reveal.js": "^5.2.1",
+        "tldreveal": "^1.2.0"
     },
     "devDependencies": {
-        "@types/react": "^18.3.4",
-        "@types/react-dom": "^18.3.0",
-        "@types/reveal.js": "^5.0.3",
-        "esbuild": "^0.27.2",
+        "@types/react": "^18.3.28",
+        "@types/react-dom": "^18.3.7",
+        "@types/reveal.js": "^5.2.2",
+        "esbuild": "^0.27.3",
         "esbuild-plugin-copy": "^2.1.1",
-        "js-yaml": "^4.1.0",
+        "js-yaml": "^4.1.1",
         "rimraf": "^5.0.10",
-        "typescript": "^5.5.4"
+        "typescript": "^5.9.3"
     },
     "overrides": {
         "nanoid": "^5.0.9"
