@@ -98,7 +98,9 @@ Wat hebben een harde schijf en een SSD gemeen?
 
 ## Eindopdracht
 
-*Tip:* maak eerst deel Toepassingen af
+1. Vul in de Werkplaats het onderwerp van je eindopdracht in (_Wie doet wat.xlsx_)
+2. Plaats het werkdocument van je eindopdracht in de map _Eindopdracht_
+   
 
 ---
 
@@ -110,9 +112,14 @@ Wat hebben een harde schijf en een SSD gemeen?
 
 Zie [*Eindopdracht* in de syllabus](../eindopdracht.html#fysiek)
 
+<div class="fragment">
+
+> **Tip: Als je je device niet uit elkaar mag halen, gebruik teardown images van sites als iFixit**
+</div>
+
 ---
 
-#### 3 soorten onderdelen
+#### 3 soorten fysieke onderdelen
 
 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
 
@@ -124,6 +131,14 @@ Besturing
 
 </div>
 
+---
+
+## Eindopdracht
+
+Ga aan de slag met de eindopdracht.
+
+**Tip: Maak eerst het onderdeel Fysiek af van je eindopdracht**
+
 ***
 
 ## En verder
@@ -132,9 +147,8 @@ Besturing
 
 | Week  | Datum      | Hoe    | Tijd            | Onderwerp                                          |
 | ----- | ---------- | ------ | --------------- | -------------------------------------------------- |
-| *5*     | *30-09-2025* | *Online* | *14.30-16.00*     | *Werken aan de eindopdracht: fysiek en toepassingen* |
-| 6     | 07-10-2025 | Fysiek | 14.30-16.00     | Logische laag: introductie en automaten            |
-|       |            |        |                 | *Herfstvakantie*                                   |
-| 7     | 21-10-2025 | Online | 14.30-16.00     | Werken aan de eindopdracht: logisch                |
+| *5*     | *25-02-2026* | *Online* | *14.30-16.00*     | *Werken aan de eindopdracht: fysiek en toepassingen* |
+| 6     | 04-03-2026 | Fysiek | 14.30-16.00     | Logische laag: introductie en automaten            |
+| 7     | 11-03-2026 | Online | 14.30-16.00     | Werken aan de eindopdracht: logisch                |
 
 <!-- .element: style="font-size: .6em" -->
