@@ -86,4 +86,10 @@ Kun je dit apparaat starten met de deur open?
 
 ## Eindopdracht
 
-Zie syllabus.
+Werk aan de eindopdracht (zie syllabus)
+
+1. Je werkt in een breakout room.
+2. Pro-tip: kijk in de rubric om te zien wat er van je verwacht wordt voor de eindopdracht.
+
+> Heb je een vraag? <br/>Stuur me een chatbericht op Teams
+<!-- .element: style="background-color: lightgray; border: 1px solid black">
