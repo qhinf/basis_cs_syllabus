@@ -54,8 +54,8 @@ sphinx:
     # een volgende editie.
     myst_substitutions:
       eerste_inlevermoment: "donderdag 4 juni, 16:00"
-      tweede_inlevermoment_melden: "TBD"
-      tweede_inlevermoment: "TBD"
+      tweede_inlevermoment_melden: "maandag 18 mei, 16:00"
+      tweede_inlevermoment: "donderdag 25 juni, 16:00"
       docent: "Hugo Halfmouw"
       docent_email: "h punt halfmouw apenstaartje quadraam punt nl"
 # html, repository en launch_buttons instellingen worden globaal voor alle
