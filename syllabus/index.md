@@ -21,6 +21,25 @@ Over inleveren en planning gesproken, hier zijn enkele belangrijke data wat dat 
 - Tweede inlevermoment voor de eindopdracht: **{{ tweede_inlevermoment }}**
   - Meld je voor **{{ tweede_inlevermoment_melden }}** om het tweede inlevermoment te gebruiken
 
+:::{seealso}
+
+Vond je de design-kant van deze module leuk en wil je meer leren over usability en het ontwerpen van gebruikersinterfaces? Bij de volgende modules komt dat ook aan bod:
+
+- [*Webdesign*](https://informatica.q-highschool.nl/webdesign): in deze module leer je hoe je zelf een website bouwt, hoe een goede website eruit ziet en hoe je dat goed test met je gebruikers. Hier krijg je dus de kans om een usability test uit te voeren met je eigen ontwerp, in plaats van een systeem dat al bestaat.
+- *Gamedesign*: wil je alles weten over hoe je een goede game ontwikkelt, die mensen kunnen én willen spelen? Dan is deze dagmodule iets voor jou!
+- *Domotica*: uitgekeken op de standaard gebruikersinterfaces van computers? Bij Domotica ga je aan de slag met slimme apparaten in huis, die reageren op jouw gedrag, ook zonder dat je knoppen op een scherm hoeft te gebruiken.
+
+Wil je graag verder met hardware en fysieke onderdelen?
+
+- *Programmeren met Arduino*: bouw je eigen systeem! De Arduino is een microcontroller met alle onderdelen van een computer, waar je zelf knoppen, schermpjes, lampjes, motoren en allerlei sensoren op aan kunt sluiten. Die kun je vervolgens programmeren om precies te doen wat jij wilt!
+
+Heb je zin om dieper te duiken in de logische werking van computers?
+
+- [*Computer Architectuur*](https://informatica.q-highschool.nl/computer_arch): we hebben alle onderdelen van de computer gezien, maar hoe werkt die CPU nou echt? In deze module leer je hoe de computer programma's uitvoert en wat binaire getallen daar mee te maken hebben.
+
+:::
+
+
 Inhoudsopgave:
 
 ```{tableofcontents}
