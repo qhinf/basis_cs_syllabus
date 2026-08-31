@@ -1,12 +1,12 @@
 # Boek configuratie
 # https://jupyterbook.org/customize/config.html
 
-title: Basis van Computer Science
+title: Computer Science
 banner: assets/banner.png
 
 # Auteur is verplicht, maar wordt voor de syllabus site automatisch aangepast op
 # basis van de commitgeschiedenis.
-author: Q-highschool
+author: Q-vak Informatica
 
 # Standaard worden alleen bestanden die in _toc.yml genoemd worden "gecompileerd"
 only_build_toc_files: true
@@ -53,10 +53,10 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      eerste_inlevermoment: "donderdag 4 juni, 16:00"
-      tweede_inlevermoment_melden: "maandag 18 mei, 16:00"
-      tweede_inlevermoment: "donderdag 25 juni, 16:00"
-      docent: "Hugo Halfmouw"
-      docent_email: "h punt halfmouw apenstaartje quadraam punt nl"
+      eerste_inlevermoment: "donderdag 5 november, 16:00" # donderdag in week 8
+      tweede_inlevermoment_melden: "maandag 12 oktober, 16:00" # maandag in week 6
+      tweede_inlevermoment: "dinsdag 1 december, 16:00" # dinsdag in week 3 van het volgende blok
+      docent: "Robin Egberts"
+      docent_email: "r punt egberts apenstaartje maartenvanrossem punt nl"
 # html, repository en launch_buttons instellingen worden globaal voor alle
 # syllabi afgehandeld.
