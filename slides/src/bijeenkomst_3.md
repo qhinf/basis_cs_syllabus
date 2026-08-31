@@ -1,6 +1,6 @@
 # De toepassingen<br/><small>User stories en usability</small>
 
-Q-highschool / Basis van Computer Science / Bijeenkomst 3
+Q-vak Informatica / Basis van Computer Science / Bijeenkomst 3
 
 ***
 

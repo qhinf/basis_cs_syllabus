@@ -1,6 +1,6 @@
 # Eindopdracht<br><small>Fysiek en toepassingen</small>
 
-Q-highschool / Basis van Computer Science / Bijeenkomst 5
+Q-vak Informatica / Basis van Computer Science / Bijeenkomst 5
 
 ***
 

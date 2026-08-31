@@ -1,6 +1,6 @@
 # De toepassingen<br/><small>van jullie systeem</small>
 
-Q-highschool / Basis van Computer Science / Bijeenkomst 4
+Q-vak Informatica / Basis van Computer Science / Bijeenkomst 4
 
 ***
 

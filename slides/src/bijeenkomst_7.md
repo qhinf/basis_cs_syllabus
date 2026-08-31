@@ -1,6 +1,6 @@
 # De logische laag
 
-Q-highschool / Basis van Computer Science / Bijeenkomst 7
+Q-vak Informatica / Basis van Computer Science / Bijeenkomst 7
 
 ***
 

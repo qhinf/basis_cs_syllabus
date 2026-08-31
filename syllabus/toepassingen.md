@@ -10,7 +10,7 @@ Mensen gebruiken een systeem met een bepaald doel: ze gebruiken een apparaat om 
 **wil ik** in een Teamsmeeting mijn scherm delen,\
 **zodat ik** een presentatie aan de leerlingen kan laten zien.
 
-**Als** leerling bij de Q-highschool\
+**Als** leerling bij de Q-vakken\
 **wil ik** in de appsite zien welke modules ik nog moet volgen,\
 **zodat ik** mijn examen haal.
 

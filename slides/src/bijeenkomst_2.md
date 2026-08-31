@@ -1,6 +1,6 @@
 # De fysieke laag
 
-Q-highschool / Basis van Computer Science / Bijeenkomst 2
+Q-vak Informatica / Basis van Computer Science / Bijeenkomst 2
 
 ***
 
