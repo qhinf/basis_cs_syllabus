@@ -1,6 +1,6 @@
 # Eindopdracht
 
-Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp en maakt een papieren prototype met een aantal verbeteringen, en beschrijft hoe het systeem logisch functioneert (met een automaat!). Deze onderdelen voeg je samen in een [verslag](#het-verslag) (in wat voor vorm dan ook), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-highschool.nl).
+Voor de eindopdracht kies je een (computer)systeem en leg je, aan de hand van de drie lagen van abstractie die we in deze module besproken hebben, uit hoe het systeem werkt. Je beschrijft dus hoe het systeem fysiek in elkaar steekt, je evalueert of de gebruikersinterface voldoet aan de regels van goed ontwerp en maakt een papieren prototype met een aantal verbeteringen, en beschrijft hoe het systeem logisch functioneert (met een automaat!). Deze onderdelen voeg je samen in een [verslag](#het-verslag) (in wat voor vorm dan ook), dat je aan het eind van de module inlevert in je [portfolio](https://app.q-vakken.nl).
 
 Je maakt deze opdracht in tweetallen, die we vormen aan het einde van de eerste fysieke bijeenkomst. Je krijgt tijdens de bijeenkomsten ook de tijd om aan de opdracht te werken, zodat je ook snel vragen kunt stellen als je ergens niet uitkomt of over een bepaalde keuze wilt overleggen. Doe er je voordeel mee!
 
@@ -8,7 +8,7 @@ Het is bij deze opdracht belangrijk dat je je bronnen vermeldt. De bronnen waar 
 
 Dat geldt overigens ook voor generatieve AI (zoals ChatGPT). Je mag voor deze opdracht geen teksten laten genereren die je in je verslag zet. Je mag dat soort tools wel gebruiken om iets op te zoeken (maar controleer wel of het antwoord ergens op slaat!) of bijvoorbeeld om feedback op je verslag te krijgen. Vermeld zoals altijd je bronnen, bijvoorbeeld door een link naar je gesprek te delen.
 
-Wat betreft het inleveren: zorg dat jullie beider namen op de eerste pagina van het verslag vermeld zijn. Iedereen levert het verslag zelf in, dus van elk tweetal krijg ik twee keer hetzelfde verslag (dat is zodat het voor de administratie duidelijk is waar je het cijfer voor hebt gekregen). Inleveren doe je zoals altijd op [app.q-highschool.nl](https://app.q-highschool.nl).
+Wat betreft het inleveren: zorg dat jullie beider namen op de eerste pagina van het verslag vermeld zijn. Iedereen levert het verslag zelf in, dus van elk tweetal krijg ik twee keer hetzelfde verslag (dat is zodat het voor de administratie duidelijk is waar je het cijfer voor hebt gekregen). Inleveren doe je zoals altijd op [app.q-vakken.nl](https://app.q-vakken.nl).
 
 De deadline voor het inleveren is {{ eerste_inlevermoment }}. Als je meer tijd nodig hebt, dan kun je ervoor kiezen van het tweede inlevermoment gebruik te maken. Laat het voor {{ tweede_inlevermoment_melden }} weten aan je docent ({{ docent }}, {{ docent_email }}) als je dat wilt. Het tweede inlevermoment is op {{ tweede_inlevermoment }}.
 
