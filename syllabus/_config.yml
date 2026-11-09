@@ -53,9 +53,9 @@ sphinx:
     # zaken die vaker terugkomen en bijvoorbeeld aangepast moeten worden voor
     # een volgende editie.
     myst_substitutions:
-      eerste_inlevermoment: "donderdag 5 november, 16:00" # donderdag in week 8
-      tweede_inlevermoment_melden: "maandag 12 oktober, 16:00" # maandag in week 6
-      tweede_inlevermoment: "dinsdag 1 december, 16:00" # dinsdag in week 3 van het volgende blok
+      eerste_inlevermoment: "donderdag 28 januari, 16:00"
+      tweede_inlevermoment_melden: "maandag 4 januari, 16:00"
+      tweede_inlevermoment: "dinsdag 16 februari, 16:00"
       docent: "Robin Egberts"
       docent_email: "r punt egberts apenstaartje maartenvanrossem punt nl"
 # html, repository en launch_buttons instellingen worden globaal voor alle
